@@ -218,3 +218,26 @@ header nav { gap: 16px; }
 html[lang=en] .hero h1 { font-size: clamp(42px,4.2vw,61px); }
 @media(min-width:851px) and (max-width:1100px) { .brand-logo { width: 165px; } header nav { gap: 10px; } .shop-nav { padding: 10px 12px; } }
 @media(max-width:650px) { .language-switch { grid-column: 1 / -1; justify-self: center; } html[lang=en] .hero h1 { font-size: 46px; } }
+
+/* A quiet QR card near the footer; QR visits never interrupt browsing. */
+.take-home { max-width: 1212px; margin: 0 auto 44px; padding: 30px 38px; display: flex; align-items: center; justify-content: space-between; gap: 36px; border: 1px solid #ded5c8; border-radius: 12px; background: #fffaf1dc; }
+.take-home-copy { max-width: 620px; }
+.take-home h2 { font: 600 29px/1.2 'Space Grotesk',sans-serif; letter-spacing: -.8px; margin: 12px 0; }
+.take-home-description { color: #75695e; font-size: 14px; line-height: 1.7; }
+.qr-downloads { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 18px; font-size: 12px; font-weight: 700; color: #477764; }
+.qr-downloads a { text-decoration: underline; text-underline-offset: 4px; }
+.qr-image-link { flex-shrink: 0; display: flex; align-items: center; flex-direction: column; gap: 9px; padding: 8px; background: white; border: 1px solid #e8e2d8; border-radius: 9px; }
+.qr-image-link img { display: block; width: 164px; height: 164px; }
+.qr-image-link span { color: #75695e; font-size: 10px; padding-bottom: 3px; }
+.qr-welcome { padding: 10px 14px; border-left: 3px solid #df8e7a; background: #f6e7dc; border-radius: 4px; font-size: 13px; line-height: 1.5; }
+@media(max-width:1000px) { .take-home { margin-left: 28px; margin-right: 28px; } }
+@media(max-width:650px) { .take-home { margin: 0 20px 30px; padding: 24px; flex-direction: column; align-items: flex-start; gap: 22px; } .take-home h2 { font-size: 26px; } .take-home-description { font-size: 13px; } .qr-image-link { align-self: center; } .qr-downloads { gap: 14px; flex-direction: column; } }
+
+/* The QR house hops across once, without covering controls with a clickable layer. */
+.qr-mascot { position: fixed; left: -90px; bottom: 18px; width: 76px; height: 76px; z-index: 20; pointer-events: none; user-select: none; animation: qr-house-travel 7s linear forwards; }
+.qr-mascot[hidden] { display: none; }
+.qr-mascot img { display: block; width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 5px 3px #49382f20); animation: qr-house-hop .62s ease-in-out infinite; }
+@keyframes qr-house-travel { from { transform: translateX(0); } to { transform: translateX(calc(100vw + 180px)); } }
+@keyframes qr-house-hop { 0%,100% { transform: translateY(0) rotate(-6deg) scale(1.03,.97); } 50% { transform: translateY(-38px) rotate(7deg) scale(.98,1.02); } }
+@media(prefers-reduced-motion:reduce) { .qr-mascot { display: none !important; } }
+@media(max-width:650px) { .qr-mascot { width: 62px; height: 62px; bottom: 12px; } }

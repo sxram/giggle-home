@@ -90,6 +90,14 @@ function applyLanguage(){
  set('.endnote-actions a:nth-child(2)','Malbücher bei Amazon ↗','Coloring books on Amazon ↗');
  set('.endnote-actions a:nth-child(3)','Shirts bei Spreadshop ↗','Shirts on Spreadshop ↗');
  set('footer p','Malbücher, Kleidung, Poster &amp; Kalender.','Coloring books, clothing, posters &amp; calendars.');
+ set('.take-home .eyebrow','FÜR UNTERWEGS','TAKE IT WITH YOU');
+ set('#take-home-title','Giggle Home mitnehmen','Take Giggle Home along');
+ set('.take-home-description','Scannen, speichern oder weitergeben – unsere bunten Welten passen auch in die Hosentasche.','Scan, save or share – our colorful worlds fit in your pocket, too.');
+ set('.qr-downloads a:nth-child(1)','QR-Code herunterladen ↧','Download QR code ↧');
+ set('.qr-downloads a:nth-child(2)','Druckversion (SVG) ↧','Print version (SVG) ↧');
+ attr('.qr-image-link','aria-label','Giggle Home über den QR-Link öffnen','Open Giggle Home using the QR link');
+ attr('.qr-image-link img','alt','QR-Code zur Giggle-Home-Webseite','QR code linking to the Giggle Home website');
+
  set('.demo-note','Designvorschau · Auswahl echter Produkte, Stand 10.11.2026 · Einkauf und aktuelle Preise direkt bei Amazon, Etsy oder Spreadshop. Vor Veröffentlichung: vollständigen Katalog und rechtliche Angaben ergänzen.','Design preview · Selected real products, updated November 10, 2026 · Shop and check current prices on Amazon, Etsy or Spreadshop. Complete the catalog and legal information before publication.');
  attr('nav','aria-label','Hauptnavigation','Main navigation');attr('.language-switch','aria-label','Sprache wählen','Choose language');
  attr('.worlds','aria-label','Unsere Welten','Our worlds');attr('.world-filters','aria-label','Produktwelt','Product world');attr('.category-filters','aria-label','Produkttyp','Product category');
@@ -116,3 +124,13 @@ document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',(
 }));
 
 applyLanguage();
+
+// A one-off, non-interactive hello for every visitor. Respect reduced motion.
+function greetVisitor(){
+ if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+ try{if(sessionStorage.getItem('giggle-house-hello'))return;sessionStorage.setItem('giggle-house-hello','shown');}catch(_){}
+ const mascot=document.querySelector('.qr-mascot');
+ mascot.addEventListener('animationend',event=>{if(event.target===mascot)mascot.hidden=true;});
+ mascot.hidden=false;
+}
+greetVisitor();

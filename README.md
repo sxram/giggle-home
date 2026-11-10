@@ -118,3 +118,7 @@ Die DE/EN-Auswahl im Header übersetzt Seitentexte, Filter, Suche, Sortierung, S
 ## Cache-sichere Veröffentlichungen
 
 Vor jedem Deployment erzeugt `scripts/prepare_site.py` die Produktdaten und versieht die CSS-/JavaScript-Verweise im HTML mit inhaltsbasierten Versionskennungen. Dadurch lädt Safari nach Updates neue Dateien, statt neue HTML-Bedienelemente mit alten Skripten oder Produktdaten zu kombinieren. Bei lokalen Änderungen denselben Vorbereitungsschritt ausführen.
+
+## QR-Karte im Fußbereich
+
+`assets/giggle-home-qr.png` und `.svg` enthalten die Zieladresse `https://giggle.stefanmarx.de/?source=qr`. Die SVG-Druckversion ist auf 32 mm mit vier Modulen weißem Rand angelegt; die PNG ist hochauflösend. Das Haus-Maskottchen begrüßt alle Besucher unabhängig von der Herkunft einmal pro Tab mit einem sieben Sekunden langen Hüpfen am unteren Bildschirmrand. Es fängt keine Klicks ab, verschwindet vollständig und bleibt bei reduzierter Bewegung aus. Der QR-Parameter kennzeichnet lediglich den Link und löst keine Sonderansicht aus. Keine Popups, Weiterleitung oder zusätzliche Analyse bzw. eigene Speicherung der Herkunft. Sprachwechsel erhalten den Parameter. Die ursprünglichen QR-Druckdateien ohne Parameter bleiben als frühere Chat-Downloads erhalten.
