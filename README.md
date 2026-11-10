@@ -102,3 +102,7 @@ Salbei, Koralle, Creme und dunkles Braun ersetzen die lila Akzente. Die Laufzeil
 ## Lockeres Textband und Häuschen-Icon
 
 Das angehängte Schwarzweiß-Häuschen wurde mit integrierter Bildgenerierung als transparentes Icon mit braunen Linien und korallfarbenem Herz aufbereitet (`assets/happy-house-icon.png`). Briefing: Form und Gesicht des Referenzhauses erhalten, klare Linien, kein Hintergrund. Es ersetzt die Sterne im Einstieg und im hellen pfirsich-cremefarbenen Textband. Dessen Texte nutzen gemischte Groß-/Kleinschreibung und Baloo 2. Der transparente Schriftzug `assets/made-for-little-rebels.png` wurde aus dem Giggle-Home-Logo-Stil abgeleitet, mit dem exakten Text „made for little rebels ↗“, Creme, Salbei, Koralle und braunen Konturen.
+
+## Aktualisierte Icons
+
+Das bestätigte Häuschen ohne rotes Herz ist als `assets/happy-house-no-heart.png` in Einstieg und Textband eingebunden. Das Punk-Icon `assets/giggle-punk-coral.png` erhält ausschließlich korallfarbene Haare, farblich passend zum Hausdach; Gesicht und Linien bleiben wie zuvor. Bearbeitet mit integrierter Bildgenerierung mit dem Briefing, nur die Haarfüllung anhand des korallfarbenen Hausdachs zu ändern und Form, Gesicht und Transparenz zu erhalten.
