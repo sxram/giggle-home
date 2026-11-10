@@ -1,4 +1,4 @@
-# Giggling Home – Beispielseite
+# Giggle Home – Beispielseite
 
 Statische, für GitHub Pages vorbereitete Designvorschau mit 26 echten Produkten aus dem Etsy-Shop GigglingHome und der Amazon-Autorenseite von Stefan Marx. Stand: 10. November 2026. Eine Auswahl, kein vollständiger Katalog.
 
@@ -73,3 +73,16 @@ So bleibt die Seite schnell und ohne eigenen laufenden Server. Ein CMS wäre die
 ## Prüfung
 
 JavaScript-Syntax geprüft. Im Browser: 26 Produkte beim Start; Punk for Kids 8 Produkte; Punk + Poster 1 Produkt; Suche ohne Treffer zeigt Rücksetzfunktion; Rücksetzen stellt 26 Produkte wieder her. Desktopansicht und 390 Pixel breite Handyansicht geprüft, ohne horizontalen Überlauf. Keine fehlgeschlagenen Bilder bei der Browserprüfung. Externe Bild-URLs können sich künftig ändern.
+
+## Design-Überarbeitung
+
+Navigation mit Amazon-Autorenseite https://amazon.com/author/giggle, originale Giggle-Home- und Rebels-Marken, dezenter durchgehender Papierhintergrund, geschlossene Produktkarten und neue Illustration im Abschlussbereich.
+
+### Bildherkunft
+
+- `assets/giggle-home-logo.png` und `assets/giggle-home-house.png`: vorhandene Markenbilder aus motifs/branding/gigglehome-v05-white-giggle, unverändert übernommen.
+- `assets/giggle-punk.png`: Rebels-symbol-master aus dem Rebels-Buch, unverändert übernommen.
+- `assets/giggle-home-creative-banner.png`: neu mit der integrierten Bildgenerierung erstellt, Hauslogo und Etsy-Banner als Referenzen.
+- `assets/playful-pattern.svg`: dekoratives Hintergrundmuster.
+
+Bildbriefing: Breites handgemaltes Kawaii-Banner auf cremefarbenem Papier; originales orange-blaues, zwinkerndes Giggle-Home-Haus in der Mitte, links ein malender Dumpling mit Malbuch und Buntstiften, rechts ein Dumpling mit T-Shirt sowie ein gerahmtes Fantasiedorf-Poster; keine Schrift, keine zusätzlichen Logos.

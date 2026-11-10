@@ -12,8 +12,10 @@ function card(p){
  img.addEventListener('error',()=>{img.hidden=true;picture.append(text('span',p.title,'image-fallback'));},{once:true});
  picture.append(img,text('span',p.world==='punk'?'Punk for Kids':'Kids','badge '+(p.world==='punk'?'rebel':'')));
  const meta=document.createElement('div');meta.className='product-meta';meta.append(text('span',labels[p.category]),text('span',p.format));
- const link=text('div','Auf '+p.shop+' entdecken','product-link');link.append(text('span','↗'));
- a.append(picture,meta,text('h3',p.title),text('p',p.description),link);article.append(a);return article;
+ const link=text('div','Bei '+p.shop+' ansehen','product-link');link.append(text('span','↗'));
+ const details=document.createElement('div');details.className='product-details';
+ details.append(meta,text('h3',p.title),text('p',p.description),link);
+ a.append(picture,details);article.append(a);return article;
 }
 function render(){
  const base=products.filter(p=>(state.world==='all'||p.world===state.world)&&[p.title,p.description,p.format,p.shop].join(' ').toLocaleLowerCase('de').includes(state.search));
