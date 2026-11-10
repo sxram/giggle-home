@@ -112,3 +112,37 @@ nav { gap: 22px; }
   .endnote-copy { margin: 0 22px; }
   .endnote > .button { margin: 0 22px; }
 }
+
+/* Give the shirt the same visual weight as the coloring book. */
+.hero-shirt {
+  width: 310px;
+  height: 320px;
+  top: 65px;
+  right: -5px;
+  border: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+  transform: rotate(8deg);
+  box-shadow: 3px 12px 28px #30224325;
+}
+.hero-shirt img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.28);
+}
+.hero-book { left: 8px; top: 20px; }
+@media(min-width:651px) and (max-width:1000px) {
+  .hero-shirt { width: 270px; height: 300px; right: -25px; }
+  .hero-book { left: -10px; }
+}
+@media(max-width:650px) {
+  .hero-art { height: 380px; transform: scale(.9); margin: 25px -5px -35px; }
+  .hero-shirt { width: 225px; height: 255px; top: 75px; right: 0; }
+  .hero-shirt img { transform: scale(1.25); }
+  .hero-book { width: 160px; left: 0; top: 15px; }
+  .hand-note { bottom: 8px; }
+}

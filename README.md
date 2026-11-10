@@ -86,3 +86,7 @@ Navigation mit Amazon-Autorenseite https://amazon.com/author/giggle, originale G
 - `assets/playful-pattern.svg`: dekoratives Hintergrundmuster.
 
 Bildbriefing: Breites handgemaltes Kawaii-Banner auf cremefarbenem Papier; originales orange-blaues, zwinkerndes Giggle-Home-Haus in der Mitte, links ein malender Dumpling mit Malbuch und Buntstiften, rechts ein Dumpling mit T-Shirt sowie ein gerahmtes Fantasiedorf-Poster; keine Schrift, keine zusätzlichen Logos.
+
+## Freigegebene Logo-Farbwelt
+
+Variante 01: Salbei und Koralle mit Creme und dunkelbraunen Konturen. Header, Footer, Haus-Icon und Favicon verwenden die neuen transparenten Dateien `assets/giggle-home-logo-sage-coral.png` und `assets/giggle-home-house-sage-coral.png`. Mit integrierter Bildgenerierung aus dem freigegebenen Farbentwurf erstellt. Briefing: ausschließlich Variante 01 als transparentes einzelnes Logo bzw. Haus-Icon, ohne Beschriftungen und Farbkreise. Ursprüngliche Dateien bleiben erhalten. Das T-Shirt im Einstieg wird größer und mit engerem Bildausschnitt ohne zusätzlichen weißen Rahmen gezeigt.
