@@ -1,7 +1,7 @@
 'use strict';
 const products = window.PRODUCTS || [];
 const state = {world:'all',category:'all',search:'',sort:'curated'};
-const labels = {books:'Malbuch',clothing:'Clothing',posters:'Poster'};
+const labels = {books:'Malbuch',clothing:'Clothing',posters:'Poster',calendar:'Kalender'};
 const grid = document.querySelector('#grid');
 function text(tag, value, cls){const el=document.createElement(tag);el.textContent=value;if(cls)el.className=cls;return el;}
 function shopLink(url, label, title, secondary=false){
@@ -30,10 +30,10 @@ function render(){
  let filtered=base.filter(p=>state.category==='all'||p.category===state.category);
  if(state.sort!=='curated')filtered.sort((a,b)=>a.title.localeCompare(b.title,'de')*(state.sort==='za'?-1:1));
  if(state.sort==='curated'&&state.category==='all'){
-  const featured=['B0HQXTZCYX','4578612735','B0HM32BWGN','4589624775','4597600781','B0HPM6Y2FQ','4587312441','4604552667'];
+  const featured=['B0HQXTZCYX','4578612735','B0HM32BWGN','4603169815','4597600781','B0HPM6Y2FQ','4587312441','4604552667'];
   filtered.sort((a,b)=>(featured.includes(a.id)?featured.indexOf(a.id):999)-(featured.includes(b.id)?featured.indexOf(b.id):999));
  }
- grid.replaceChildren(...filtered.map(card));document.querySelector('#count').textContent=filtered.length+' Produkte';document.querySelector('#empty').hidden=filtered.length!==0;
+ grid.replaceChildren(...filtered.map(card));document.querySelector('#count').textContent=filtered.length+(filtered.length===1?' Produkt':' Produkte');document.querySelector('#empty').hidden=filtered.length!==0;
  document.querySelectorAll('[data-world]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.world===state.world)));
  document.querySelectorAll('[data-category]').forEach(b=>{b.setAttribute('aria-pressed',String(b.dataset.category===state.category));b.querySelector('span').textContent=base.filter(p=>b.dataset.category==='all'||p.category===b.dataset.category).length;});
 }

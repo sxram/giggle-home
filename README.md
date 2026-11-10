@@ -1,6 +1,6 @@
 # Giggle Home – Beispielseite
 
-Statische, für GitHub Pages vorbereitete Designvorschau mit 26 echten Produkten aus dem Etsy-Shop GigglingHome und der Amazon-Autorenseite von Stefan Marx. Stand: 10. November 2026. Eine Auswahl, kein vollständiger Katalog.
+Statische, für GitHub Pages vorbereitete Designvorschau mit 34 echten Produkten aus dem Etsy-Shop GigglingHome und der Amazon-Autorenseite von Stefan Marx. Stand: 10. November 2026. Eine Auswahl, kein vollständiger Katalog.
 
 ## Vorschau
 
@@ -51,7 +51,7 @@ Jedes Produkt hat diese Felder:
 }
 ```
 
-`world`: `kids` oder `punk`. `category`: `books`, `clothing` oder `posters`.
+`world`: `kids` oder `punk`. `category`: `books`, `clothing`, `posters` oder `calendar`.
 
 ## Dynamischer Katalog auf einer statischen Seite
 
@@ -106,3 +106,7 @@ Das angehängte Schwarzweiß-Häuschen wurde mit integrierter Bildgenerierung al
 ## Aktualisierte Icons
 
 Das bestätigte Häuschen ohne rotes Herz ist als `assets/happy-house-no-heart.png` in Einstieg und Textband eingebunden. Das Punk-Icon `assets/giggle-punk-coral.png` erhält ausschließlich korallfarbene Haare, farblich passend zum Hausdach; Gesicht und Linien bleiben wie zuvor. Bearbeitet mit integrierter Bildgenerierung mit dem Briefing, nur die Haarfüllung anhand des korallfarbenen Hausdachs zu ändern und Form, Gesicht und Transparenz zu erhalten.
+
+## Etsy-Poster und Kalender vollständig
+
+Am 10.11.2026 wurden alle 13 Artikel der Etsy-Shopkategorie „Poster“ und der eine Artikel aus „Calendar“ erfasst. Der Katalog enthält jetzt 34 Produkte: 13 Bücher, 7 Shirts, 13 Poster und 1 Kalender. Frühere digitale Poster-Beispiele sind durch die Auswahl aus „Poster“ ersetzt; „Poster-Digital“ wurde nicht importiert. Die Originaltitel und Shopkategorien bleiben als sourceTitle/sourceSection dokumentiert. Einige Originaltitel innerhalb der Shopkategorie „Poster“ erwähnen noch „Digital Download“; die Auswahl richtet sich ausdrücklich nach der vom Nutzer angegebenen Shopkategorie. Der Kalender besitzt einen eigenen Filter und ist in der Vorauswahl sichtbar.
