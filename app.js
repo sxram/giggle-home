@@ -107,7 +107,7 @@ function applyLanguage(){
  attr('.qr-image-link img','alt','QR-Code zur Giggle-Home-Webseite','QR code linking to the Giggle Home website');
 
  set('.demo-note','Designvorschau · Auswahl echter Produkte, Stand 10.11.2026 · Einkauf und aktuelle Preise direkt bei Amazon, Etsy oder Spreadshop. Vor Veröffentlichung: vollständigen Katalog und rechtliche Angaben ergänzen.','Design preview · Selected real products, updated November 10, 2026 · Shop and check current prices on Amazon, Etsy or Spreadshop. Complete the catalog and legal information before publication.');
- attr('nav','aria-label','Hauptnavigation','Main navigation');attr('.language-switch','aria-label','Sprache wählen','Choose language');
+ attr('nav','aria-label','Hauptnavigation','Main navigation');attr('.footer-social','aria-label','Giggle Punk auf Social Media','Giggle Punk on social media');attr('.language-switch','aria-label','Sprache wählen','Choose language');
  attr('.worlds','aria-label','Unsere Welten','Our worlds');attr('.world-filters','aria-label','Produktwelt','Product world');attr('.category-filters','aria-label','Produkttyp','Product category');
  attr('#sort','aria-label','Produkte sortieren','Sort products');attr('.endnote-actions','aria-label','Unsere Shops','Our shops');
  attr('.hero-art','aria-label','Eine Auswahl unserer Malbücher und Shirts','A selection of our coloring books and shirts');
