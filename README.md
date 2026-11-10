@@ -32,7 +32,7 @@ Es wurde noch kein Repository angelegt und nichts auf GitHub veröffentlicht. Vo
 `products.json` ist die zentrale Produktliste. Der vorhandene GitHub-Workflow erzeugt daraus vor jeder Veröffentlichung automatisch `products.js`. Für eine lokale Vorschau nach Datenänderungen ebenfalls `products.js` neu erzeugen:
 
 ```sh
-python3 -c "import json,pathlib; pathlib.Path('products.js').write_text('window.PRODUCTS = '+json.dumps(json.loads(pathlib.Path('products.json').read_text()),ensure_ascii=False)+';',encoding='utf-8')"
+python3 scripts/prepare_site.py
 ```
 
 Jedes Produkt hat diese Felder:
@@ -114,3 +114,7 @@ Am 10.11.2026 wurden alle 13 Artikel der Etsy-Shopkategorie „Poster“ und der
 ## Deutsch / English
 
 Die DE/EN-Auswahl im Header übersetzt Seitentexte, Filter, Suche, Sortierung, Shoplinks, Alternativtexte und Produktbeschreibungen. Buchtitel bleiben als Originaltitel erhalten; die tatsächliche Ausgabe (German/English/Spanish edition) steht in der Beschreibung. Die englische Kalenderbezeichnung ist separat hinterlegt. Marken-Schriftzüge und die englischen Sprüche im Bildband bleiben unverändert. Die Wahl wird lokal gespeichert und ist über `?lang=de` bzw. `?lang=en` teilbar. Ein Sprachwechsel erhält die aktiven Filter und den Suchtext.
+
+## Cache-sichere Veröffentlichungen
+
+Vor jedem Deployment erzeugt `scripts/prepare_site.py` die Produktdaten und versieht die CSS-/JavaScript-Verweise im HTML mit inhaltsbasierten Versionskennungen. Dadurch lädt Safari nach Updates neue Dateien, statt neue HTML-Bedienelemente mit alten Skripten oder Produktdaten zu kombinieren. Bei lokalen Änderungen denselben Vorbereitungsschritt ausführen.

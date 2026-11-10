@@ -18,8 +18,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
-      - name: Generate product script
-        run: python3 -c "import json,pathlib; p=pathlib.Path('products.json'); pathlib.Path('products.js').write_text('window.PRODUCTS = '+json.dumps(json.loads(p.read_text()),ensure_ascii=False)+';',encoding='utf-8')"
+      - name: Prepare products and versioned assets
+        run: python3 scripts/prepare_site.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
