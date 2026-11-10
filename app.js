@@ -59,8 +59,9 @@ function applyLanguage(){
  const set=(selector,de,english)=>{document.querySelector(selector).innerHTML=en?english:de;};
  const attr=(selector,name,de,english)=>document.querySelector(selector).setAttribute(name,en?english:de);
  set('.skip','Zum Produktkatalog','Skip to products');
- set('.shop-nav:not(.amazon-nav)','Zum Etsy-Shop ↗','Visit Etsy shop ↗');
- set('.amazon-nav','Zu Amazon ↗','Visit Amazon ↗');
+ set('.shop-nav:not(.amazon-nav):not(.spreadshop-nav)','Etsy-Shop ↗','Etsy shop ↗');
+ set('.amazon-nav','Bücher / Amazon ↗','Books / Amazon ↗');
+ set('.spreadshop-nav','Shirts / Spreadshop ↗','Shirts / Spreadshop ↗');
  set('.hero-copy > .eyebrow','EIN KLEINES ZUHAUSE FÜR GROSSE FREUDE','A LITTLE HOME FOR BIG SMILES');
  const underline='<svg viewBox="0 0 440 20" aria-hidden="true"><path d="M4 13Q180 -4 430 9M20 18Q180 5 390 15"/></svg>';
  set('.hero h1','Kleine Köpfe.<br>Große <span>Fantasie.</span>'+underline,'Little minds.<br>Big <span>imagination.</span>'+underline);

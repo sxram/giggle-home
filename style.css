@@ -241,3 +241,11 @@ html[lang=en] .hero h1 { font-size: clamp(42px,4.2vw,61px); }
 @keyframes qr-house-hop { 0%,100% { transform: translateY(0) rotate(-6deg) scale(1.03,.97); } 50% { transform: translateY(-38px) rotate(7deg) scale(.98,1.02); } }
 @media(prefers-reduced-motion:reduce) { .qr-mascot { display: none !important; } }
 @media(max-width:650px) { .qr-mascot { width: 62px; height: 62px; bottom: 12px; } }
+
+/* Shop destinations replace the duplicate world links in the header. */
+.spreadshop-nav { background: #e3ece1cc; }
+@media(max-width:650px) {
+ header nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+ header .shop-nav { padding: 11px 12px; flex: 1 1 auto; text-align: center; }
+ header .language-switch { flex: 0 0 auto; }
+}
