@@ -2,7 +2,7 @@
 <g stroke="#66856d" stroke-width="1.6" stroke-linecap="round" opacity=".14">
 <path d="M53 60v16m-8-8h16M508 198v12m-6-6h12M333 467v16m-8-8h16"/>
 <circle cx="400" cy="56" r="5"/><circle cx="78" cy="388" r="6"/>
-<path d="m235 221 4 10 11 1-8 7 2 11-9-6-9 6 2-11-8-7 11-1zM491 478q10-14 20 0t20 0M113 182q9-12 18 0M425 324l7 7m-7 0 7-7"/>
+<path d="M491 478q10-14 20 0t20 0M113 182q9-12 18 0M425 324l7 7m-7 0 7-7"/>
 </g><g fill="#df8e7a" opacity=".18"><circle cx="164" cy="506" r="3"/><circle cx="539" cy="95" r="2.5"/><circle cx="31" cy="258" r="2.5"/><circle cx="348" cy="176" r="3"/></g>
 <g stroke="#90aaa0" stroke-width="1.5" opacity=".15"><path d="m176 62 7 9-6 7 7 9M541 362l-5 9 6 8M303 358q8-13 16 0"/></g>
 </svg>

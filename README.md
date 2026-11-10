@@ -98,3 +98,7 @@ Der Abschlussbereich verlinkt Etsy, Amazon und Spreadshop. Bei drei am 10.11.202
 ## Abgestimmte Seitenfarben
 
 Salbei, Koralle, Creme und dunkles Braun ersetzen die lila Akzente. Die Laufzeile hat seitliche Innenabstände. Das Banner wurde mit integrierter Bildgenerierung an die freigegebene Logo-Palette angepasst (Hausdach Koralle, Seiten Salbei, Konturen Braun, übrige Komposition erhalten) und dient zusätzlich als dezenter Einstiegshintergrund. Datei: `assets/giggle-home-creative-banner-sage-coral.png`.
+
+## Lockeres Textband und Häuschen-Icon
+
+Das angehängte Schwarzweiß-Häuschen wurde mit integrierter Bildgenerierung als transparentes Icon mit braunen Linien und korallfarbenem Herz aufbereitet (`assets/happy-house-icon.png`). Briefing: Form und Gesicht des Referenzhauses erhalten, klare Linien, kein Hintergrund. Es ersetzt die Sterne im Einstieg und im hellen pfirsich-cremefarbenen Textband. Dessen Texte nutzen gemischte Groß-/Kleinschreibung und Baloo 2. Der transparente Schriftzug `assets/made-for-little-rebels.png` wurde aus dem Giggle-Home-Logo-Stil abgeleitet, mit dem exakten Text „made for little rebels ↗“, Creme, Salbei, Koralle und braunen Konturen.
