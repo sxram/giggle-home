@@ -249,3 +249,8 @@ html[lang=en] .hero h1 { font-size: clamp(42px,4.2vw,61px); }
  header .shop-nav { padding: 11px 12px; flex: 1 1 auto; text-align: center; }
  header .language-switch { flex: 0 0 auto; }
 }
+
+/* Inline SVG keeps arrows monochrome on iOS and every other platform. */
+.arrow { display: inline-block; width: 1em; height: 1em; flex-shrink: 0; vertical-align: -.13em; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.shop-nav > .arrow, footer a > .arrow, .qr-downloads .arrow { margin-left: .2em; }
+.product-link > .arrow { width: 17px; height: 17px; }

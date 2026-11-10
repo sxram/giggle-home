@@ -11,13 +11,20 @@ const translations={
 function t(){return translations[language];}
 function localizedProduct(p){return {...p,title:language==='en'?(p.titleEn||p.title):p.title,description:language==='en'?(p.descriptionEn||p.description):p.description,format:language==='en'?({'Kunstdruck':'Art print','A4-Wandkalender':'A4 wall calendar','Digitaler Download':'Digital download'}[p.format]||p.format):p.format};}
 function viewLabel(shop){return t().view.replace('{shop}',shop);}
+// Draw arrows rather than relying on platform-dependent emoji glyphs.
+function arrowMarkup(direction='up-right'){
+ const paths={'up-right':'M4 16 16 4M5 4h11v11','down-right':'M4 4 16 16M5 16h11V5','download':'M10 3v11M5 9l5 5 5-5M4 17h12'};
+ return '<svg class="arrow arrow-'+direction+'" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="'+paths[direction]+'"/></svg>';
+}
+function withArrowIcons(value){return value.replace(/↗/g,()=>arrowMarkup()).replace(/↘/g,()=>arrowMarkup('down-right')).replace(/↧/g,()=>arrowMarkup('download'));}
+function arrowElement(){const container=document.createElement('span');container.innerHTML=arrowMarkup();return container.firstElementChild;}
 const grid = document.querySelector('#grid');
 function text(tag, value, cls){const el=document.createElement(tag);el.textContent=value;if(cls)el.className=cls;return el;}
 function shopLink(url, label, title, secondary=false){
  const a=text('a',label,'product-link'+(secondary?' secondary-shop-link':''));
  a.href=url;a.target='_blank';a.rel='noopener noreferrer';
  a.setAttribute('aria-label',title+' – '+label+' ('+t().newTab+')');
- a.append(text('span','↗'));return a;
+ a.append(arrowElement());return a;
 }
 function card(original){
  const p=localizedProduct(original);
@@ -56,7 +63,7 @@ document.querySelector('#reset').addEventListener('click',()=>{Object.assign(sta
 
 function applyLanguage(){
  const en=language==='en';document.documentElement.lang=language;
- const set=(selector,de,english)=>{document.querySelector(selector).innerHTML=en?english:de;};
+ const set=(selector,de,english)=>{document.querySelector(selector).innerHTML=withArrowIcons(en?english:de);};
  const attr=(selector,name,de,english)=>document.querySelector(selector).setAttribute(name,en?english:de);
  set('.skip','Zum Produktkatalog','Skip to products');
  set('.shop-nav:not(.amazon-nav):not(.spreadshop-nav)','Etsy-Shop ↗','Etsy shop ↗');

@@ -122,3 +122,7 @@ Vor jedem Deployment erzeugt `scripts/prepare_site.py` die Produktdaten und vers
 ## QR-Karte im Fußbereich
 
 `assets/giggle-home-qr.png` und `.svg` enthalten die Zieladresse `https://giggle.stefanmarx.de/?source=qr`. Die SVG-Druckversion ist auf 32 mm mit vier Modulen weißem Rand angelegt; die PNG ist hochauflösend. Das Haus-Maskottchen begrüßt alle Besucher unabhängig von der Herkunft einmal pro Tab mit einem sieben Sekunden langen Hüpfen am unteren Bildschirmrand. Es fängt keine Klicks ab, verschwindet vollständig und bleibt bei reduzierter Bewegung aus. Der QR-Parameter kennzeichnet lediglich den Link und löst keine Sonderansicht aus. Keine Popups, Weiterleitung oder zusätzliche Analyse bzw. eigene Speicherung der Herkunft. Sprachwechsel erhalten den Parameter. Die ursprünglichen QR-Druckdateien ohne Parameter bleiben als frühere Chat-Downloads erhalten.
+
+## Einheitliche Pfeile auf iOS
+
+Sichtbare Navigations-, Produkt- und Downloadpfeile sind inline SVG mit currentColor statt Unicode-Emoji. Auch beim Sprachwechsel erzeugte Texte werden vor der Ausgabe umgewandelt. So behalten die Pfeile Form und Textfarbe auf dem iPhone. Der Pfeil im gezeichneten Marken-Schriftzug bleibt Teil des Bildes.
