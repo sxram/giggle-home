@@ -110,3 +110,7 @@ Das bestätigte Häuschen ohne rotes Herz ist als `assets/happy-house-no-heart.p
 ## Etsy-Poster und Kalender vollständig
 
 Am 10.11.2026 wurden alle 13 Artikel der Etsy-Shopkategorie „Poster“ und der eine Artikel aus „Calendar“ erfasst. Der Katalog enthält jetzt 34 Produkte: 13 Bücher, 7 Shirts, 13 Poster und 1 Kalender. Frühere digitale Poster-Beispiele sind durch die Auswahl aus „Poster“ ersetzt; „Poster-Digital“ wurde nicht importiert. Die Originaltitel und Shopkategorien bleiben als sourceTitle/sourceSection dokumentiert. Einige Originaltitel innerhalb der Shopkategorie „Poster“ erwähnen noch „Digital Download“; die Auswahl richtet sich ausdrücklich nach der vom Nutzer angegebenen Shopkategorie. Der Kalender besitzt einen eigenen Filter und ist in der Vorauswahl sichtbar.
+
+## Deutsch / English
+
+Die DE/EN-Auswahl im Header übersetzt Seitentexte, Filter, Suche, Sortierung, Shoplinks, Alternativtexte und Produktbeschreibungen. Buchtitel bleiben als Originaltitel erhalten; die tatsächliche Ausgabe (German/English/Spanish edition) steht in der Beschreibung. Die englische Kalenderbezeichnung ist separat hinterlegt. Marken-Schriftzüge und die englischen Sprüche im Bildband bleiben unverändert. Die Wahl wird lokal gespeichert und ist über `?lang=de` bzw. `?lang=en` teilbar. Ein Sprachwechsel erhält die aktiven Filter und den Suchtext.

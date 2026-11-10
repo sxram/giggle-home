@@ -8,7 +8,8 @@ window.PRODUCTS = [
     "category": "books",
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HQXTZCYX",
-    "shop": "Amazon"
+    "shop": "Amazon",
+    "descriptionEn": "40 manga-inspired coloring adventures · English · Ages 8–14"
   },
   {
     "id": "B0HM32BWGN",
@@ -19,7 +20,8 @@ window.PRODUCTS = [
     "category": "books",
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HM32BWGN",
-    "shop": "Amazon"
+    "shop": "Amazon",
+    "descriptionEn": "Squishy & kawaii · German edition · Ages 4+"
   },
   {
     "id": "B0HPM6Y2FQ",
@@ -30,7 +32,8 @@ window.PRODUCTS = [
     "category": "books",
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HPM6Y2FQ",
-    "shop": "Amazon"
+    "shop": "Amazon",
+    "descriptionEn": "55 coloring pages & 25 puzzles · German edition"
   },
   {
     "id": "B0HMXCM9XP",
@@ -41,7 +44,8 @@ window.PRODUCTS = [
     "category": "books",
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HMXCM9XP",
-    "shop": "Amazon"
+    "shop": "Amazon",
+    "descriptionEn": "33 coloring and activity pages · German edition · Ages 6+"
   },
   {
     "id": "B0HQ4J1J4T",
@@ -52,7 +56,8 @@ window.PRODUCTS = [
     "category": "books",
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HQ4J1J4T",
-    "shop": "Amazon"
+    "shop": "Amazon",
+    "descriptionEn": "40 manga-inspired coloring adventures · English · Ages 8–14"
   },
   {
     "id": "B0HKWWF576",
@@ -63,7 +68,8 @@ window.PRODUCTS = [
     "category": "books",
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HKWWF576",
-    "shop": "Amazon"
+    "shop": "Amazon",
+    "descriptionEn": "Giggle Dumplings · English edition"
   },
   {
     "id": "B0HQ1MTXD6",
@@ -74,7 +80,8 @@ window.PRODUCTS = [
     "category": "books",
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HQ1MTXD6",
-    "shop": "Amazon"
+    "shop": "Amazon",
+    "descriptionEn": "55 coloring pages & 25 puzzles · English edition"
   },
   {
     "id": "B0HMSHCWSL",
@@ -85,7 +92,8 @@ window.PRODUCTS = [
     "category": "books",
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HMSHCWSL",
-    "shop": "Amazon"
+    "shop": "Amazon",
+    "descriptionEn": "33 kawaii mandalas · English edition · Ages 6+"
   },
   {
     "id": "B0HLLD7QBX",
@@ -96,7 +104,8 @@ window.PRODUCTS = [
     "category": "books",
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HLLD7QBX",
-    "shop": "Amazon"
+    "shop": "Amazon",
+    "descriptionEn": "Coloring pages, puzzles & crafts · German edition"
   },
   {
     "id": "B0HLMQKNJS",
@@ -107,7 +116,8 @@ window.PRODUCTS = [
     "category": "books",
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HLMQKNJS",
-    "shop": "Amazon"
+    "shop": "Amazon",
+    "descriptionEn": "Kawaii coloring pages & activities · English edition"
   },
   {
     "id": "B0HJY9BL42",
@@ -118,7 +128,8 @@ window.PRODUCTS = [
     "category": "books",
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HJY9BL42",
-    "shop": "Amazon"
+    "shop": "Amazon",
+    "descriptionEn": "Giggle Dumplings · German edition"
   },
   {
     "id": "B0HKWRFLHX",
@@ -129,7 +140,8 @@ window.PRODUCTS = [
     "category": "books",
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HKWRFLHX",
-    "shop": "Amazon"
+    "shop": "Amazon",
+    "descriptionEn": "Giggle Dumplings · English edition"
   },
   {
     "id": "B0HKWPJT6T",
@@ -140,7 +152,8 @@ window.PRODUCTS = [
     "category": "books",
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HKWPJT6T",
-    "shop": "Amazon"
+    "shop": "Amazon",
+    "descriptionEn": "Giggle Dumplings · Spanish edition"
   },
   {
     "id": "4578612735",
@@ -151,7 +164,8 @@ window.PRODUCTS = [
     "category": "clothing",
     "format": "T-Shirt",
     "url": "https://www.etsy.com/listing/4578612735",
-    "shop": "Etsy"
+    "shop": "Etsy",
+    "descriptionEn": "Kawaii meets punk. For little free spirits."
   },
   {
     "id": "4604552667",
@@ -163,7 +177,8 @@ window.PRODUCTS = [
     "format": "T-Shirt",
     "url": "https://www.etsy.com/listing/4604552667",
     "shop": "Etsy",
-    "spreadshopUrl": "https://gigglehome.myspreadshop.de/schlafenszeit+fuer+niemand-A3277d67f8d991390"
+    "spreadshopUrl": "https://gigglehome.myspreadshop.de/schlafenszeit+fuer+niemand-A3277d67f8d991390",
+    "descriptionEn": "Sleepy Teddy & the toy rebellion."
   },
   {
     "id": "4603763868",
@@ -174,7 +189,8 @@ window.PRODUCTS = [
     "category": "clothing",
     "format": "T-Shirt",
     "url": "https://www.etsy.com/listing/4603763868",
-    "shop": "Etsy"
+    "shop": "Etsy",
+    "descriptionEn": "Never mind the broccoli."
   },
   {
     "id": "4603182850",
@@ -186,7 +202,8 @@ window.PRODUCTS = [
     "format": "T-Shirt",
     "url": "https://www.etsy.com/listing/4603182850",
     "shop": "Etsy",
-    "spreadshopUrl": "https://gigglehome.myspreadshop.de/kleiner+schatz-A32786a2a4e11374d"
+    "spreadshopUrl": "https://gigglehome.myspreadshop.de/kleiner+schatz-A32786a2a4e11374d",
+    "descriptionEn": "Play among us."
   },
   {
     "id": "4603068073",
@@ -197,7 +214,8 @@ window.PRODUCTS = [
     "category": "clothing",
     "format": "T-Shirt",
     "url": "https://www.etsy.com/listing/4603068073",
-    "shop": "Etsy"
+    "shop": "Etsy",
+    "descriptionEn": "Punk spirit for the playground."
   },
   {
     "id": "4603126201",
@@ -209,7 +227,8 @@ window.PRODUCTS = [
     "format": "T-Shirt",
     "url": "https://www.etsy.com/listing/4603126201",
     "shop": "Etsy",
-    "spreadshopUrl": "https://gigglehome.myspreadshop.de/waschbares+material-A32786a2468ef861a"
+    "spreadshopUrl": "https://gigglehome.myspreadshop.de/waschbares+material-A32786a2468ef861a",
+    "descriptionEn": "For little mess makers."
   },
   {
     "id": "4597600781",
@@ -220,7 +239,8 @@ window.PRODUCTS = [
     "category": "clothing",
     "format": "T-Shirt",
     "url": "https://www.etsy.com/listing/4597600781",
-    "shop": "Etsy"
+    "shop": "Etsy",
+    "descriptionEn": "Aliens & animal friends in outer space."
   },
   {
     "id": "4599046559",
@@ -233,7 +253,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/de-en/listing/4599046559/cute-animal-nursery-wall-art-rainbow",
     "shop": "Etsy",
     "sourceSection": "Poster",
-    "sourceTitle": "Cute Animal Nursery Wall Art – Rainbow Cloud Poster with Capybara | Axolotl | Cat | Otter & Red Panda | Giggle Critters Kids Room Decor"
+    "sourceTitle": "Cute Animal Nursery Wall Art – Rainbow Cloud Poster with Capybara | Axolotl | Cat | Otter & Red Panda | Giggle Critters Kids Room Decor",
+    "descriptionEn": "Capybara, axolotl & friends above the clouds."
   },
   {
     "id": "4589225523",
@@ -246,7 +267,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/de-en/listing/4589225523/purple-alien-space-poster-cute-alien",
     "shop": "Etsy",
     "sourceSection": "Poster",
-    "sourceTitle": "Giggle Cosmos Alien & Cosmic Cat Poster | Purple Galaxy Nursery Art (Digital Download)"
+    "sourceTitle": "Giggle Cosmos Alien & Cosmic Cat Poster | Purple Galaxy Nursery Art (Digital Download)",
+    "descriptionEn": "An alien and a cat in an imaginative galaxy."
   },
   {
     "id": "4589236950",
@@ -259,7 +281,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/de-en/listing/4589236950/yellow-alien-space-poster-cute-alien",
     "shop": "Etsy",
     "sourceSection": "Poster",
-    "sourceTitle": "Giggle Cosmos Alien & Cosmic Bunny Poster | Galaxy Nursery Wall Art (Digital Download)"
+    "sourceTitle": "Giggle Cosmos Alien & Cosmic Bunny Poster | Galaxy Nursery Wall Art (Digital Download)",
+    "descriptionEn": "A little space adventure with an alien and a bunny."
   },
   {
     "id": "4589222247",
@@ -272,7 +295,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/de-en/listing/4589222247/cute-alien-space-poster-green-alien",
     "shop": "Etsy",
     "sourceSection": "Poster",
-    "sourceTitle": "Giggle Cosmos Alien & Puppy Space Poster | Kids Room Wall Art (Digital Download)"
+    "sourceTitle": "Giggle Cosmos Alien & Puppy Space Poster | Kids Room Wall Art (Digital Download)",
+    "descriptionEn": "An alien and a space puppy among moons and stars."
   },
   {
     "id": "4587948894",
@@ -285,7 +309,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/de-en/listing/4587948894/enchanted-treehouse-village-poster",
     "shop": "Etsy",
     "sourceSection": "Poster",
-    "sourceTitle": "Enchanted Treehouse Village Poster | Whimsical Fairytale Nursery Art (Matte Print)"
+    "sourceTitle": "Enchanted Treehouse Village Poster | Whimsical Fairytale Nursery Art (Matte Print)",
+    "descriptionEn": "A magical treehouse village with steps and lanterns."
   },
   {
     "id": "4587939201",
@@ -298,7 +323,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/de-en/listing/4587939201/enchanted-forest-nursery-poster-magical",
     "shop": "Etsy",
     "sourceSection": "Poster",
-    "sourceTitle": "Enchanted Forest Nursery Poster | Magical Woodland Animals, Moonlight Castle (Print)"
+    "sourceTitle": "Enchanted Forest Nursery Poster | Magical Woodland Animals, Moonlight Castle (Print)",
+    "descriptionEn": "Woodland animals, a little cottage and a moonlit castle."
   },
   {
     "id": "4587744048",
@@ -311,7 +337,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/de-en/listing/4587744048/autumn-village-poster-cozy-fall",
     "shop": "Etsy",
     "sourceSection": "Poster",
-    "sourceTitle": "Autumn Village Poster | Cozy Fall Landscape Wall Art (Digital Download)"
+    "sourceTitle": "Autumn Village Poster | Cozy Fall Landscape Wall Art (Digital Download)",
+    "descriptionEn": "A cozy village in warm autumn colors."
   },
   {
     "id": "4587327425",
@@ -324,7 +351,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/de-en/listing/4587327425/whimsical-moonlit-forest-poster-fox-kids",
     "shop": "Etsy",
     "sourceSection": "Poster",
-    "sourceTitle": "Moonlit Forest Fox Nursery Poster | Whimsical Woodland Storybook Art (Print)"
+    "sourceTitle": "Moonlit Forest Fox Nursery Poster | Whimsical Woodland Storybook Art (Print)",
+    "descriptionEn": "A little fox in an enchanting moonlit woodland."
   },
   {
     "id": "4587330228",
@@ -337,7 +365,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/de-en/listing/4587330228/whimsical-autumn-forest-poster-deer-kids",
     "shop": "Etsy",
     "sourceSection": "Poster",
-    "sourceTitle": "Whimsical Autumn Forest Deer Poster | Storybook Nursery Wall Art (Digital Download)"
+    "sourceTitle": "Whimsical Autumn Forest Deer Poster | Storybook Nursery Wall Art (Digital Download)",
+    "descriptionEn": "A deer among colorful flowers and autumn trees."
   },
   {
     "id": "4587312441",
@@ -350,7 +379,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/de-en/listing/4587312441/whimsical-moonlit-village-poster",
     "shop": "Etsy",
     "sourceSection": "Poster",
-    "sourceTitle": "Whimsical Moonlit Village Poster | Colorful Canal Nursery Art (Print)"
+    "sourceTitle": "Whimsical Moonlit Village Poster | Colorful Canal Nursery Art (Print)",
+    "descriptionEn": "A little village full of big imagination."
   },
   {
     "id": "4586722119",
@@ -363,7 +393,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/de-en/listing/4586722119/colorful-whimsical-village-poster-kids",
     "shop": "Etsy",
     "sourceSection": "Poster",
-    "sourceTitle": "Colorful Whimsical Village Poster | Kids Room Wall Art | Storybook Nursery Decor | Magical Fairytale Print"
+    "sourceTitle": "Colorful Whimsical Village Poster | Kids Room Wall Art | Storybook Nursery Decor | Magical Fairytale Print",
+    "descriptionEn": "Colorful houses, winding paths and a little black cat."
   },
   {
     "id": "4586713039",
@@ -376,7 +407,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/de-en/listing/4586713039/whimsical-moonlit-village-nursery-poster",
     "shop": "Etsy",
     "sourceSection": "Poster",
-    "sourceTitle": "Whimsical Moonlit Village Nursery Poster"
+    "sourceTitle": "Whimsical Moonlit Village Nursery Poster",
+    "descriptionEn": "A dreamy village beneath a sparkling night sky."
   },
   {
     "id": "4584464355",
@@ -389,7 +421,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/de-en/listing/4584464355/sleepy-moon-nursery-poster-squishy",
     "shop": "Etsy",
     "sourceSection": "Poster",
-    "sourceTitle": "Sleepy Moon Nursery Poster – Squishy Dumplings"
+    "sourceTitle": "Sleepy Moon Nursery Poster – Squishy Dumplings",
+    "descriptionEn": "Sweet dreams with the Squishy Dumplings."
   },
   {
     "id": "4603169815",
@@ -402,6 +435,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/de-en/listing/4603169815/giggle-dumplings-2027-calendar-a4-story",
     "shop": "Etsy",
     "sourceSection": "Calendar",
-    "sourceTitle": "Giggle Dumplings 2027 Calendar | A4 Story & Puzzle Wall Calendar | English"
+    "sourceTitle": "Giggle Dumplings 2027 Calendar | A4 Story & Puzzle Wall Calendar | English",
+    "descriptionEn": "A Year of Adventures · A4 wall calendar with stories and puzzles · English edition",
+    "titleEn": "Giggle Dumplings: Calendar 2027"
   }
 ];
