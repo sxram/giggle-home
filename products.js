@@ -162,7 +162,8 @@ window.PRODUCTS = [
     "category": "clothing",
     "format": "T-Shirt",
     "url": "https://www.etsy.com/listing/4604552667",
-    "shop": "Etsy"
+    "shop": "Etsy",
+    "spreadshopUrl": "https://gigglehome.myspreadshop.de/schlafenszeit+fuer+niemand-A3277d67f8d991390"
   },
   {
     "id": "4603763868",
@@ -184,7 +185,8 @@ window.PRODUCTS = [
     "category": "clothing",
     "format": "T-Shirt",
     "url": "https://www.etsy.com/listing/4603182850",
-    "shop": "Etsy"
+    "shop": "Etsy",
+    "spreadshopUrl": "https://gigglehome.myspreadshop.de/kleiner+schatz-A32786a2a4e11374d"
   },
   {
     "id": "4603068073",
@@ -206,7 +208,8 @@ window.PRODUCTS = [
     "category": "clothing",
     "format": "T-Shirt",
     "url": "https://www.etsy.com/listing/4603126201",
-    "shop": "Etsy"
+    "shop": "Etsy",
+    "spreadshopUrl": "https://gigglehome.myspreadshop.de/waschbares+material-A32786a2468ef861a"
   },
   {
     "id": "4597600781",

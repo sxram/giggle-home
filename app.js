@@ -4,18 +4,26 @@ const state = {world:'all',category:'all',search:'',sort:'curated'};
 const labels = {books:'Malbuch',clothing:'Clothing',posters:'Poster'};
 const grid = document.querySelector('#grid');
 function text(tag, value, cls){const el=document.createElement(tag);el.textContent=value;if(cls)el.className=cls;return el;}
+function shopLink(url, label, title, secondary=false){
+ const a=text('a',label,'product-link'+(secondary?' secondary-shop-link':''));
+ a.href=url;a.target='_blank';a.rel='noopener noreferrer';
+ a.setAttribute('aria-label',title+' – '+label+' (neuer Tab)');
+ a.append(text('span','↗'));return a;
+}
 function card(p){
  const article=document.createElement('article');article.className='product '+p.category;
- const a=document.createElement('a');a.href=p.url;a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',p.title+' bei '+p.shop+' ansehen (neuer Tab)');
+ const a=document.createElement('a');a.className='product-main';a.href=p.url;a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',p.title+' bei '+p.shop+' ansehen (neuer Tab)');
  const picture=document.createElement('div');picture.className='product-image';
  const img=document.createElement('img');img.src=p.image;img.alt=p.title;img.loading='lazy';img.width=340;img.height=374;
  img.addEventListener('error',()=>{img.hidden=true;picture.append(text('span',p.title,'image-fallback'));},{once:true});
  picture.append(img,text('span',p.world==='punk'?'Punk for Kids':'Kids','badge '+(p.world==='punk'?'rebel':'')));
  const meta=document.createElement('div');meta.className='product-meta';meta.append(text('span',labels[p.category]),text('span',p.format));
- const link=text('div','Bei '+p.shop+' ansehen','product-link');link.append(text('span','↗'));
  const details=document.createElement('div');details.className='product-details';
- details.append(meta,text('h3',p.title),text('p',p.description),link);
- a.append(picture,details);article.append(a);return article;
+ details.append(meta,text('h3',p.title),text('p',p.description));a.append(picture,details);
+ const actions=document.createElement('div');actions.className='product-actions';
+ actions.append(shopLink(p.url,'Bei '+p.shop+' ansehen',p.title));
+ if(p.spreadshopUrl)actions.append(shopLink(p.spreadshopUrl,'Shirts bei Spreadshop',p.title,true));
+ article.append(a,actions);return article;
 }
 function render(){
  const base=products.filter(p=>(state.world==='all'||p.world===state.world)&&[p.title,p.description,p.format,p.shop].join(' ').toLocaleLowerCase('de').includes(state.search));

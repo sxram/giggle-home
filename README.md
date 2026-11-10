@@ -90,3 +90,11 @@ Bildbriefing: Breites handgemaltes Kawaii-Banner auf cremefarbenem Papier; origi
 ## Freigegebene Logo-Farbwelt
 
 Variante 01: Salbei und Koralle mit Creme und dunkelbraunen Konturen. Header, Footer, Haus-Icon und Favicon verwenden die neuen transparenten Dateien `assets/giggle-home-logo-sage-coral.png` und `assets/giggle-home-house-sage-coral.png`. Mit integrierter Bildgenerierung aus dem freigegebenen Farbentwurf erstellt. Briefing: ausschließlich Variante 01 als transparentes einzelnes Logo bzw. Haus-Icon, ohne Beschriftungen und Farbkreise. Ursprüngliche Dateien bleiben erhalten. Das T-Shirt im Einstieg wird größer und mit engerem Bildausschnitt ohne zusätzlichen weißen Rahmen gezeigt.
+
+## Weitere Shoplinks
+
+Der Abschlussbereich verlinkt Etsy, Amazon und Spreadshop. Bei drei am 10.11.2026 im öffentlichen Spreadshop-Katalog bestätigten Motiven (Bedtime for Nobody, Washable Material und Mini Mischief) führt ein zweiter Link direkt zum jeweiligen Spreadshop-Motiv. Der dort angezeigte übersetzte Name für Mini Mischief lautet „Kleiner Schatz“; die Design-ID stimmt mit der dokumentierten Zuordnung überein. Weitere Motive erst nach bestätigter Verfügbarkeit über `spreadshopUrl` ergänzen. Produktkarten verwenden separate Geschwisterlinks, keine ineinander verschachtelten Links.
+
+## Abgestimmte Seitenfarben
+
+Salbei, Koralle, Creme und dunkles Braun ersetzen die lila Akzente. Die Laufzeile hat seitliche Innenabstände. Das Banner wurde mit integrierter Bildgenerierung an die freigegebene Logo-Palette angepasst (Hausdach Koralle, Seiten Salbei, Konturen Braun, übrige Komposition erhalten) und dient zusätzlich als dezenter Einstiegshintergrund. Datei: `assets/giggle-home-creative-banner-sage-coral.png`.
