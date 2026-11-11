@@ -47,7 +47,7 @@ function render(){
  let filtered=base.filter(p=>state.category==='all'||p.category===state.category);
  if(state.sort!=='curated')filtered.sort((a,b)=>localizedProduct(a).title.localeCompare(localizedProduct(b).title,language)*(state.sort==='za'?-1:1));
  if(state.sort==='curated'&&state.category==='all'){
-  const featured=['B0HQXTZCYX','4578612735','B0HM32BWGN','4603169815','4597600781','B0HPM6Y2FQ','4587312441','4604552667'];
+  const featured=['B0HQXTZCYX','4615170253','4578612735','B0HM32BWGN','4603169815','4597600781','B0HPM6Y2FQ','4587312441','4604552667'];
   filtered.sort((a,b)=>(featured.includes(a.id)?featured.indexOf(a.id):999)-(featured.includes(b.id)?featured.indexOf(b.id):999));
  }
  grid.replaceChildren(...filtered.map(card));document.querySelector('#count').textContent=filtered.length+' '+(filtered.length===1?t().one:t().many);document.querySelector('#empty').hidden=filtered.length!==0;
@@ -106,7 +106,7 @@ function applyLanguage(){
  attr('.qr-image-link','aria-label','Giggle Home über den QR-Link öffnen','Open Giggle Home using the QR link');
  attr('.qr-image-link img','alt','QR-Code zur Giggle-Home-Webseite','QR code linking to the Giggle Home website');
 
- set('.demo-note','Designvorschau · Auswahl echter Produkte, Stand 10.11.2026 · Einkauf und aktuelle Preise direkt bei Amazon, Etsy oder Spreadshop. Vor Veröffentlichung: vollständigen Katalog und rechtliche Angaben ergänzen.','Design preview · Selected real products, updated November 10, 2026 · Shop and check current prices on Amazon, Etsy or Spreadshop. Complete the catalog and legal information before publication.');
+ set('.demo-note','Designvorschau · Auswahl echter Produkte, Stand 11.11.2026 · Einkauf und aktuelle Preise direkt bei Amazon, Etsy oder Spreadshop. Vor Veröffentlichung: vollständigen Katalog und rechtliche Angaben ergänzen.','Design preview · Selected real products, updated November 11, 2026 · Shop and check current prices on Amazon, Etsy or Spreadshop. Complete the catalog and legal information before publication.');
  attr('nav','aria-label','Hauptnavigation','Main navigation');attr('.footer-social','aria-label','Giggle Punk auf Social Media','Giggle Punk on social media');attr('.language-switch','aria-label','Sprache wählen','Choose language');
  attr('.worlds','aria-label','Unsere Welten','Our worlds');attr('.world-filters','aria-label','Produktwelt','Product world');attr('.category-filters','aria-label','Produkttyp','Product category');
  attr('#sort','aria-label','Produkte sortieren','Sort products');attr('.endnote-actions','aria-label','Unsere Shops','Our shops');

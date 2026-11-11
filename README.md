@@ -1,6 +1,6 @@
 # Giggle Home – Beispielseite
 
-Statische, für GitHub Pages vorbereitete Designvorschau mit 34 echten Produkten aus dem Etsy-Shop GigglingHome und der Amazon-Autorenseite von Stefan Marx. Stand: 10. November 2026. Eine Auswahl, kein vollständiger Katalog.
+Statische, für GitHub Pages vorbereitete Designvorschau mit 35 echten Produkten aus dem Etsy-Shop GigglingHome und der Amazon-Autorenseite von Stefan Marx. Stand: 11. November 2026. Eine Auswahl, kein vollständiger Katalog.
 
 ## Vorschau
 
@@ -130,3 +130,7 @@ Sichtbare Navigations-, Produkt- und Downloadpfeile sind inline SVG mit currentC
 ## Vollständige Markenbilder in den Kategoriekarten
 
 Die Karte „Punk for Kids“ nutzt das bestätigte Social-Profilbild mit Gesicht und „giggle punk“-Schriftzug (`assets/giggle-punk-wordmark-square.png`). Die Karte „Kids“ zeigt das passende Haus mit zweizeiligem „Giggle Home“-Schriftzug (`assets/giggle-home-wordmark-square.png`). Das Hausmotiv wurde per integrierter Bildgenerierung mit Haus- und Profilbild als Referenzen erstellt: quadratisches Markenbild, bestehendes Haus oben, darunter Giggle in Creme und Home in Salbei mit braunen Konturen auf Elfenbein.
+
+## Neues Shirt – 11.11.2026
+
+„Another Mess in a Different Kitchen“ ergänzt Punk for Kids / Clothing und die redaktionelle Vorauswahl. Etsy-Artikel 4615170253 wurde als öffentlich bestätigt. Die Karte verwendet das unveränderte, vollständig sichtbare weiße Gelato-Produktmockup als lokale WebP-Datei (`assets/another-mess-kids-shirt.webp`), mit deutscher und englischer Kurzbeschreibung und direktem Etsy-Link. Ein Spreadshop-Link folgt erst nach dort bestätigter Veröffentlichung. Aktueller Umfang: 35 Produkte, davon 8 Shirts.

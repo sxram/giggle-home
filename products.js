@@ -156,6 +156,18 @@ window.PRODUCTS = [
     "descriptionEn": "Giggle Dumplings · Spanish edition"
   },
   {
+    "id": "4615170253",
+    "title": "Another Mess in a Different Kitchen",
+    "description": "Vier kleine Küchenrebellen zwischen Mehl, Teig und Topfschlagzeug.",
+    "descriptionEn": "Four little kitchen rebels with flour, dough and cooking-pot drums.",
+    "image": "assets/another-mess-kids-shirt.webp",
+    "world": "punk",
+    "category": "clothing",
+    "format": "T-Shirt",
+    "url": "https://www.etsy.com/listing/4615170253",
+    "shop": "Etsy"
+  },
+  {
     "id": "4578612735",
     "title": "Punky Dumplings",
     "description": "Kawaii trifft Punk. Für kleine Freigeister.",
