@@ -258,3 +258,33 @@ html[lang=en] .hero h1 { font-size: clamp(42px,4.2vw,61px); }
 .footer-social { display: flex; flex-wrap: wrap; gap: 14px 24px; flex-basis: 100%; justify-content: flex-end; border-top: 1px solid var(--line); padding-top: 18px; color: #477764; font-size: 12px; font-weight: 600; }
 footer { flex-wrap: wrap; }
 @media(max-width:650px) { .footer-social { justify-content: flex-start; order: 4; gap: 14px; } }
+
+/* Full mascot-and-wordmark lockups in both category cards. */
+.world { min-height: 246px; }
+.world .world-symbol { width: 174px; height: 174px; flex-basis: 174px; padding: 7px; background: #faf7ef; border-radius: 14px; box-shadow: 0 5px 14px #49382f14; transform: rotate(3deg); }
+.world .punk-symbol { transform: rotate(-3deg); }
+@media(min-width:651px) and (max-width:1100px) { .world .world-symbol { width: 132px; height: 132px; flex-basis: 132px; } .world { min-height: 218px; gap: 16px; } .world h2 { font-size: 25px; } }
+@media(max-width:650px) { .world { min-height: 210px; gap: 14px; } .world .world-symbol { width: 124px; height: 124px; flex-basis: 124px; padding: 5px; border-radius: 10px; } .world h2 { font-size: 24px; } .world h2 span { font-size: 19px; margin-left: 3px; } }
+@media(max-width:360px) { .world { padding: 18px; gap: 10px; } .world .world-symbol { width: 108px; height: 108px; flex-basis: 108px; } .world h2 { font-size: 22px; } }
+
+/* Three real products, with the shirt floating freely between the books. */
+.hero-art { height: 440px; margin-left: 12px; }
+.hero-book { width: 170px; left: 0; top: 28px; z-index: 1; transform: rotate(-12deg); }
+.hero-shirt { width: 245px; height: 300px; left: 105px; right: auto; top: 115px; background: transparent; overflow: visible; border: 0; box-shadow: none; z-index: 3; transform: rotate(5deg); }
+.hero-shirt img { width: 100%; height: 100%; object-fit: contain; transform: none; filter: drop-shadow(3px 9px 7px #49382f24); }
+.hero-rebels { position: absolute; width: 165px; right: -4px; top: 40px; z-index: 2; transform: rotate(10deg); box-shadow: 7px 12px 20px #49382f30; border-radius: 3px; overflow: hidden; }
+.hero-rebels img { display: block; width: 100%; }
+.hand-note { z-index: 4; bottom: -3px; }
+@media(min-width:651px) and (max-width:1000px) {
+ .hero-art { margin-left: -20px; }
+ .hero-book { width: 145px; left: -8px; }
+ .hero-shirt { width: 210px; left: 75px; }
+ .hero-rebels { width: 140px; right: -22px; }
+}
+@media(max-width:650px) {
+ .hero-art { height: 365px; margin: 24px -5px -15px; transform: none; }
+ .hero-book { width: 36%; left: 0; top: 20px; }
+ .hero-shirt { width: 59%; height: 250px; left: 20%; top: 96px; }
+ .hero-rebels { width: 35%; right: 0; top: 30px; }
+ .hand-note { bottom: 0; }
+}

@@ -126,3 +126,7 @@ Vor jedem Deployment erzeugt `scripts/prepare_site.py` die Produktdaten und vers
 ## Einheitliche Pfeile auf iOS
 
 Sichtbare Navigations-, Produkt- und Downloadpfeile sind inline SVG mit currentColor statt Unicode-Emoji. Auch beim Sprachwechsel erzeugte Texte werden vor der Ausgabe umgewandelt. So behalten die Pfeile Form und Textfarbe auf dem iPhone. Der Pfeil im gezeichneten Marken-Schriftzug bleibt Teil des Bildes.
+
+## Vollständige Markenbilder in den Kategoriekarten
+
+Die Karte „Punk for Kids“ nutzt das bestätigte Social-Profilbild mit Gesicht und „giggle punk“-Schriftzug (`assets/giggle-punk-wordmark-square.png`). Die Karte „Kids“ zeigt das passende Haus mit zweizeiligem „Giggle Home“-Schriftzug (`assets/giggle-home-wordmark-square.png`). Das Hausmotiv wurde per integrierter Bildgenerierung mit Haus- und Profilbild als Referenzen erstellt: quadratisches Markenbild, bestehendes Haus oben, darunter Giggle in Creme und Home in Salbei mit braunen Konturen auf Elfenbein.

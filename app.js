@@ -115,9 +115,10 @@ function applyLanguage(){
  document.querySelectorAll('.brand,.footer-brand').forEach(a=>a.setAttribute('aria-label',en?'Giggle Home – Home':'Giggle Home – Startseite'));
  attr('.brand-logo','alt','Giggle Home mit lachendem Haus','Giggle Home with smiling house');
  attr('.hero-book img','alt','Giggle Dumplings Regenbogen Ausmalbuch','Giggle Dumplings Rainbow coloring book, German edition');
+ attr('.hero-rebels img','alt','Giggle Friends: Rebels Malbuch','Giggle Friends: Rebels coloring book');
  attr('.hero-shirt img','alt','Punky Dumplings Kinder-T-Shirt','Punky Dumplings kids T-shirt');
- attr('.punk-symbol','alt','Giggle Punk – lachendes Gesicht mit Irokesen','Giggle Punk – smiling face with a mohawk');
- attr('.home-symbol','alt','Giggle Home – lachendes Haus','Giggle Home – smiling house');
+ attr('.punk-symbol','alt','Giggle Punk – lachendes Gesicht mit korallroten Haaren und Schriftzug','Giggle Punk – smiling face with coral hair and wordmark');
+ attr('.home-symbol','alt','Giggle Home – lachendes Haus mit Schriftzug','Giggle Home – smiling house and wordmark');
  attr('.endnote-art','alt','Das lachende Giggle-Home-Haus mit zwei Dumplings beim Malen, einem Kinder-Shirt und einem gerahmten Fantasieposter','The smiling Giggle Home house with two dumplings, a coloring book, a kids T-shirt and a framed fantasy poster');
  document.title=en?'Giggle Home — Little minds. Big imagination.':'Giggle Home — Kleine Köpfe. Große Fantasie.';
  attr('meta[name="description"]','content','Entdecke die bunte Welt von Giggle Home: Malbücher, Shirts, Poster und Kalender für kleine Freigeister.','Explore the colorful world of Giggle Home: coloring books, shirts, posters and calendars for little free spirits.');
