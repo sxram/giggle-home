@@ -288,3 +288,6 @@ footer { flex-wrap: wrap; }
  .hero-rebels { width: 35%; right: 0; top: 30px; }
  .hand-note { bottom: 0; }
 }
+
+/* Keep the Rebels book close to the shirt on wide screens. */
+@media(min-width:1001px) { .hero-rebels { left: 335px; right: auto; } }
