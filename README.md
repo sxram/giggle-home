@@ -51,7 +51,7 @@ Jedes Produkt hat diese Felder:
 }
 ```
 
-`world`: `kids` oder `punk`. `category`: `books`, `clothing`, `posters` oder `calendar`.
+`world`: `kids` oder `punk`. `category`: `books`, `clothing`, `posters`, `calendar` oder `printables`.
 
 ## Dynamischer Katalog auf einer statischen Seite
 
@@ -134,3 +134,7 @@ Die Karte „Punk for Kids“ nutzt das bestätigte Social-Profilbild mit Gesich
 ## Neues Shirt – 11.11.2026
 
 „Another Mess in a Different Kitchen“ ergänzt Punk for Kids / Clothing und die redaktionelle Vorauswahl. Etsy-Artikel 4615170253 wurde als öffentlich bestätigt. Die Karte verwendet das unveränderte, vollständig sichtbare weiße Gelato-Produktmockup als lokale WebP-Datei (`assets/another-mess-kids-shirt.webp`), mit deutscher und englischer Kurzbeschreibung und direktem Etsy-Link. Ein Spreadshop-Link folgt erst nach dort bestätigter Veröffentlichung. Aktueller Umfang: 35 Produkte, davon 8 Shirts.
+
+## Digitale Malbücher auf Etsy
+
+Am 13.11.2026 alle sieben Artikel der Etsy-Shopkategorie „Coloring Books“ (section_id=60429003) übernommen. Die Kategorie „Malbücher zum Ausdrucken“ / „Printable coloring books“ zeigt reguläre Produktkarten mit Originalbildern und direkten Etsy-Artikellinks. Als digitaler Download gekennzeichnet, mit deutschen und englischen Beschreibungen; Suche, Sortierung, Weltfilter und Ergebniszähler funktionieren wie bei den übrigen Produkten. Die Originaltitel und Shopkategorie sind als sourceTitle/sourceSection dokumentiert. Gesamtumfang: 42 Produkte.

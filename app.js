@@ -5,8 +5,8 @@ let language='de';
 try { language=new URLSearchParams(location.search).get('lang') || localStorage.getItem('giggle-home-language') || 'de'; } catch (_) {}
 if(!['de','en'].includes(language))language='de';
 const translations={
- de:{labels:{books:'Malbuch',clothing:'Clothing',posters:'Poster',calendar:'Kalender'},categories:{all:'Alles',books:'Malbücher',clothing:'T-Shirts / Clothing',posters:'Poster',calendar:'Kalender'},allWorlds:'Alle Welten',view:'Bei {shop} ansehen',spread:'Shirts bei Spreadshop',newTab:'neuer Tab',one:'Produkt',many:'Produkte'},
- en:{labels:{books:'Coloring book',clothing:'Clothing',posters:'Poster',calendar:'Calendar'},categories:{all:'All',books:'Coloring books',clothing:'T-Shirts / Clothing',posters:'Posters',calendar:'Calendar'},allWorlds:'All worlds',view:'View on {shop}',spread:'Shirts on Spreadshop',newTab:'new tab',one:'product',many:'products'}
+ de:{labels:{books:'Malbuch',printables:'Digitales Malbuch',clothing:'Clothing',posters:'Poster',calendar:'Kalender'},categories:{all:'Alles',books:'Malbücher',printables:'Malbücher zum Ausdrucken',clothing:'T-Shirts / Clothing',posters:'Poster',calendar:'Kalender'},allWorlds:'Alle Welten',view:'Bei {shop} ansehen',spread:'Shirts bei Spreadshop',newTab:'neuer Tab',one:'Produkt',many:'Produkte'},
+ en:{labels:{books:'Coloring book',printables:'Printable coloring book',clothing:'Clothing',posters:'Poster',calendar:'Calendar'},categories:{all:'All',books:'Coloring books',printables:'Printable coloring books',clothing:'T-Shirts / Clothing',posters:'Posters',calendar:'Calendar'},allWorlds:'All worlds',view:'View on {shop}',spread:'Shirts on Spreadshop',newTab:'new tab',one:'product',many:'products'}
 };
 function t(){return translations[language];}
 function localizedProduct(p){return {...p,title:language==='en'?(p.titleEn||p.title):p.title,description:language==='en'?(p.descriptionEn||p.description):p.description,format:language==='en'?({'Kunstdruck':'Art print','A4-Wandkalender':'A4 wall calendar','Digitaler Download':'Digital download'}[p.format]||p.format):p.format};}
@@ -52,7 +52,7 @@ function render(){
  }
  grid.replaceChildren(...filtered.map(card));document.querySelector('#count').textContent=filtered.length+' '+(filtered.length===1?t().one:t().many);document.querySelector('#empty').hidden=filtered.length!==0;
  document.querySelectorAll('[data-world]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.world===state.world)));
- document.querySelectorAll('[data-category]').forEach(b=>{b.setAttribute('aria-pressed',String(b.dataset.category===state.category));b.querySelector('span').textContent=base.filter(p=>b.dataset.category==='all'||p.category===b.dataset.category).length;});
+ document.querySelectorAll('[data-category]').forEach(b=>{b.setAttribute('aria-pressed',String(b.dataset.category===state.category));if(b.querySelector('span'))b.querySelector('span').textContent=base.filter(p=>b.dataset.category==='all'||p.category===b.dataset.category).length;});
 }
 document.querySelectorAll('[data-world]').forEach(b=>b.addEventListener('click',()=>{state.world=b.dataset.world;render();}));
 document.querySelectorAll('[data-category]').forEach(b=>b.addEventListener('click',()=>{state.category=b.dataset.category;render();}));
