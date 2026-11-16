@@ -5,8 +5,8 @@ let language='de';
 try { language=new URLSearchParams(location.search).get('lang') || localStorage.getItem('giggle-home-language') || 'de'; } catch (_) {}
 if(!['de','en'].includes(language))language='de';
 const translations={
- de:{labels:{books:'Malbuch',printables:'Digitales Malbuch',clothing:'Clothing',posters:'Poster',calendar:'Kalender'},categories:{all:'Alles',books:'Malbücher',printables:'Malbücher zum Ausdrucken',clothing:'T-Shirts / Clothing',posters:'Poster',calendar:'Kalender'},allWorlds:'Alle Welten',view:'Bei {shop} ansehen',spread:'Shirts bei Spreadshop',newTab:'neuer Tab',one:'Produkt',many:'Produkte'},
- en:{labels:{books:'Coloring book',printables:'Printable coloring book',clothing:'Clothing',posters:'Poster',calendar:'Calendar'},categories:{all:'All',books:'Coloring books',printables:'Printable coloring books',clothing:'T-Shirts / Clothing',posters:'Posters',calendar:'Calendar'},allWorlds:'All worlds',view:'View on {shop}',spread:'Shirts on Spreadshop',newTab:'new tab',one:'product',many:'products'}
+ de:{labels:{books:'Buch',printables:'Digitales Malbuch',clothing:'Clothing',posters:'Poster',digitalposters:'Digitales Poster',calendar:'Kalender'},categories:{all:'Alles',books:'Mal- & Mitmachbücher',printables:'Malbücher zum Ausdrucken',clothing:'T-Shirts / Clothing',posters:'Poster',digitalposters:'Poster zum Ausdrucken',calendar:'Kalender'},allWorlds:'Alle Welten',view:'Bei {shop} ansehen',spread:'Shirts bei Spreadshop',newTab:'neuer Tab',one:'Produkt',many:'Produkte'},
+ en:{labels:{books:'Book',printables:'Printable coloring book',clothing:'Clothing',posters:'Poster',digitalposters:'Printable poster',calendar:'Calendar'},categories:{all:'All',books:'Coloring & activity books',printables:'Printable coloring books',clothing:'T-Shirts / Clothing',posters:'Posters',digitalposters:'Printable posters',calendar:'Calendar'},allWorlds:'All worlds',view:'View on {shop}',spread:'Shirts on Spreadshop',newTab:'new tab',one:'product',many:'products'}
 };
 function t(){return translations[language];}
 function localizedProduct(p){return {...p,title:language==='en'?(p.titleEn||p.title):p.title,description:language==='en'?(p.descriptionEn||p.description):p.description,format:language==='en'?({'Kunstdruck':'Art print','A4-Wandkalender':'A4 wall calendar','Digitaler Download':'Digital download'}[p.format]||p.format):p.format};}
@@ -34,6 +34,7 @@ function card(original){
  const img=document.createElement('img');img.src=p.image;img.alt=p.title;img.loading='lazy';img.width=340;img.height=374;
  img.addEventListener('error',()=>{img.hidden=true;picture.append(text('span',p.title,'image-fallback'));},{once:true});
  picture.append(img,text('span',p.world==='punk'?'Punk for Kids':'Kids','badge '+(p.world==='punk'?'rebel':'')));
+ if(p.isNew)picture.append(text('span',language==='en'?'New':'Neu','new-badge'));
  const meta=document.createElement('div');meta.className='product-meta';meta.append(text('span',t().labels[p.category]),text('span',p.format));
  const details=document.createElement('div');details.className='product-details';
  details.append(meta,text('h3',p.title),text('p',p.description));a.append(picture,details);
@@ -45,9 +46,10 @@ function card(original){
 function render(){
  const base=products.filter(p=>(state.world==='all'||p.world===state.world)&&[p.title,p.description,p.titleEn||'',p.descriptionEn||'',localizedProduct(p).format,p.shop].join(' ').toLocaleLowerCase(language).includes(state.search));
  let filtered=base.filter(p=>state.category==='all'||p.category===state.category);
- if(state.sort!=='curated')filtered.sort((a,b)=>localizedProduct(a).title.localeCompare(localizedProduct(b).title,language)*(state.sort==='za'?-1:1));
+ if(state.sort==='newest')filtered.sort((a,b)=>Number(Boolean(b.isNew))-Number(Boolean(a.isNew)));
+ if(['az','za'].includes(state.sort))filtered.sort((a,b)=>localizedProduct(a).title.localeCompare(localizedProduct(b).title,language)*(state.sort==='za'?-1:1));
  if(state.sort==='curated'&&state.category==='all'){
-  const featured=['B0HQXTZCYX','4615170253','4578612735','B0HM32BWGN','4603169815','4597600781','B0HPM6Y2FQ','4587312441','4604552667'];
+  const featured=['B0HRSVLGH1','4618937709','B0HRQ1Y14Y','4618955213','4618940193','4617117961','4618949644','B0HQXTZCYX','B0HPLP58W4','4603169815','B0HM32BWGN','4587312441'];
   filtered.sort((a,b)=>(featured.includes(a.id)?featured.indexOf(a.id):999)-(featured.includes(b.id)?featured.indexOf(b.id):999));
  }
  grid.replaceChildren(...filtered.map(card));document.querySelector('#count').textContent=filtered.length+' '+(filtered.length===1?t().one:t().many);document.querySelector('#empty').hidden=filtered.length!==0;
@@ -72,15 +74,17 @@ function applyLanguage(){
  set('.hero-copy > .eyebrow','EIN KLEINES ZUHAUSE FÜR GROSSE FREUDE','A LITTLE HOME FOR BIG SMILES');
  const underline='<svg viewBox="0 0 440 20" aria-hidden="true"><path d="M4 13Q180 -4 430 9M20 18Q180 5 390 15"/></svg>';
  set('.hero h1','Kleine Köpfe.<br>Große <span>Fantasie.</span>'+underline,'Little minds.<br>Big <span>imagination.</span>'+underline);
- set('.intro','Ein bisschen wild. Ein bisschen wundervoll.<br>Malbücher, Shirts und Poster für Kinder,<br>die ihre Welt selbst bunt machen.','A little wild. A little wonderful.<br>Coloring books, shirts and posters for kids<br>who make their world their own.');
+ set('.intro','Ein bisschen wild. Ein bisschen wundervoll.<br>Malabenteuer, Punk-Shirts und bunte Poster –<br>als Lieblingsstück oder direkt zum Ausdrucken.','A little wild. A little wonderful.<br>Coloring adventures, punk tees and colorful posters –<br>as a favorite keepsake or ready to print at home.');
  set('.hero-copy > .button','Produkte entdecken <span>↘</span>','Explore products <span>↘</span>');
- set('.hero-note','Von Stefan Marx · Für kleine Freigeister','By Stefan Marx · For little free spirits');
+ set('.hero-note','Neu dabei: Junior Rebels, Punk Crew &amp; drei neue Punk-Shirts.','New arrivals: Junior Rebels, Punk Crew &amp; three new punk tees.');
  set('.world.punk .eyebrow','FÜR KLEINE REBELLEN','FOR LITTLE REBELS');
- set('.world.punk p','Laut, liebenswert und herrlich eigensinnig.','Loud, lovable and wonderfully independent.');
+ set('.world.punk p','Junior Rebels, Punk Crew &amp; Shirts mit Eigensinn.','Junior Rebels, Punk Crew &amp; tees with attitude.');
  set('.world.kids .eyebrow','FÜR GROSSE TRÄUMER','FOR BIG DREAMERS');
- set('.world.kids p','Kleine Freunde. Bunte Welten. Neue Abenteuer.','Little friends. Colorful worlds. New adventures.');
- set('.catalog-heading .eyebrow','UNSERE PRODUKTE','OUR PRODUCTS');
- set('.catalog-heading h2','Malbücher, Shirts, Poster <i>&amp; Kalender.</i>','Coloring books, shirts, posters <i>&amp; calendars.</i>');
+ set('.world.kids p','Dumplings, Tierfreunde &amp; ein Jahr voller Abenteuer.','Dumplings, animal friends &amp; a year of adventures.');
+ set('.catalog-heading .eyebrow','UNSERE PRODUKTE · STAND 17.11.2026','OUR PRODUCTS · UPDATED NOVEMBER 17, 2026');
+ set('.catalog-intro','Als Buch, zum Anziehen oder zum Selbstausdrucken: Entdecke alle 59 Etsy-Artikel und 16 veröffentlichte Bücher bei Amazon. Digitale Downloads und gedruckte Produkte sind getrennt gekennzeichnet.','As a book, to wear or to print at home: explore all 59 Etsy listings and 16 published books on Amazon. Digital downloads and printed products are clearly labeled.');
+ set('.catalog-heading h2','Bunte Bücher, wilde Shirts <i>&amp; mehr.</i>','Colorful books, wild tees <i>&amp; more.</i>');
+ set('#sort option[value="newest"]','Neuheiten zuerst','New arrivals first');
  attr('#search','placeholder','Produkte suchen …','Search products …');
  attr('#search','aria-label','Produkte durchsuchen','Search products');
  document.querySelector('.sort-label').firstChild.textContent=en?'Sort by ':'Sortieren ';
@@ -95,7 +99,7 @@ function applyLanguage(){
  set('.endnote-copy h2','Für mehr „Das bin ich!“<br>im Kinderzimmer.','A little more “That’s me!”<br>in their world.');
  set('.endnote-copy p:not(.eyebrow)','Ob mit Stiften in der Hand, dem Lieblingsshirt am Körper<br>oder einem kleinen Abenteuer an der Wand.','With pencils in hand, a favorite shirt to wear<br>or a little adventure on the wall.');
  set('.endnote-actions a:nth-child(1)','Giggle Home auf Etsy ↗','Giggle Home on Etsy ↗');
- set('.endnote-actions a:nth-child(2)','Malbücher bei Amazon ↗','Coloring books on Amazon ↗');
+ set('.endnote-actions a:nth-child(2)','Bücher bei Amazon ↗','Books on Amazon ↗');
  set('.endnote-actions a:nth-child(3)','Shirts bei Spreadshop ↗','Shirts on Spreadshop ↗');
  set('footer p','Malbücher, Kleidung, Poster &amp; Kalender.','Coloring books, clothing, posters &amp; calendars.');
  set('.take-home .eyebrow','FÜR UNTERWEGS','TAKE IT WITH YOU');
@@ -106,7 +110,7 @@ function applyLanguage(){
  attr('.qr-image-link','aria-label','Giggle Home über den QR-Link öffnen','Open Giggle Home using the QR link');
  attr('.qr-image-link img','alt','QR-Code zur Giggle-Home-Webseite','QR code linking to the Giggle Home website');
 
- set('.demo-note','Designvorschau · Auswahl echter Produkte, Stand 11.11.2026 · Einkauf und aktuelle Preise direkt bei Amazon, Etsy oder Spreadshop. Vor Veröffentlichung: vollständigen Katalog und rechtliche Angaben ergänzen.','Design preview · Selected real products, updated November 11, 2026 · Shop and check current prices on Amazon, Etsy or Spreadshop. Complete the catalog and legal information before publication.');
+ set('.demo-note','Designvorschau · Produktkatalog, Stand 17.11.2026 · Einkauf und aktuelle Preise direkt bei Amazon, Etsy oder Spreadshop. Rechtliche Angaben vor Veröffentlichung ergänzen.','Design preview · Product catalog, updated November 17, 2026 · Shop and check current prices on Amazon, Etsy or Spreadshop. Complete the legal information before publication.');
  attr('nav','aria-label','Hauptnavigation','Main navigation');attr('.footer-social','aria-label','Giggle Punk auf Social Media','Giggle Punk on social media');attr('.language-switch','aria-label','Sprache wählen','Choose language');
  attr('.worlds','aria-label','Unsere Welten','Our worlds');attr('.world-filters','aria-label','Produktwelt','Product world');attr('.category-filters','aria-label','Produkttyp','Product category');
  attr('#sort','aria-label','Produkte sortieren','Sort products');attr('.endnote-actions','aria-label','Unsere Shops','Our shops');
@@ -115,13 +119,13 @@ function applyLanguage(){
  document.querySelectorAll('.brand,.footer-brand').forEach(a=>a.setAttribute('aria-label',en?'Giggle Home – Home':'Giggle Home – Startseite'));
  attr('.brand-logo','alt','Giggle Home mit lachendem Haus','Giggle Home with smiling house');
  attr('.hero-book img','alt','Giggle Dumplings Regenbogen Ausmalbuch','Giggle Dumplings Rainbow coloring book, German edition');
- attr('.hero-rebels img','alt','Giggle Friends: Rebels Malbuch','Giggle Friends: Rebels coloring book');
+ attr('.hero-rebels img','alt','Giggle Friends: Junior Rebels Malbuch','Giggle Friends: Junior Rebels coloring book');
  attr('.hero-shirt img','alt','Punky Dumplings Kinder-T-Shirt','Punky Dumplings kids T-shirt');
  attr('.punk-symbol','alt','Giggle Punk – lachendes Gesicht mit korallroten Haaren und Schriftzug','Giggle Punk – smiling face with coral hair and wordmark');
  attr('.home-symbol','alt','Giggle Home – lachendes Haus mit Schriftzug','Giggle Home – smiling house and wordmark');
  attr('.endnote-art','alt','Das lachende Giggle-Home-Haus mit zwei Dumplings beim Malen, einem Kinder-Shirt und einem gerahmten Fantasieposter','The smiling Giggle Home house with two dumplings, a coloring book, a kids T-shirt and a framed fantasy poster');
  document.title=en?'Giggle Home — Little minds. Big imagination.':'Giggle Home — Kleine Köpfe. Große Fantasie.';
- attr('meta[name="description"]','content','Entdecke die bunte Welt von Giggle Home: Malbücher, Shirts, Poster und Kalender für kleine Freigeister.','Explore the colorful world of Giggle Home: coloring books, shirts, posters and calendars for little free spirits.');
+ attr('meta[name="description"]','content','Entdecke Mal- und Mitmachbücher, Punk-Shirts, Poster und Kalender von Giggle Home – gedruckt oder als Download zum Selbstausdrucken.','Explore Giggle Home coloring and activity books, punk tees, posters and calendars – in print or as digital downloads.');
  document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lang===language)));
  render();
 }

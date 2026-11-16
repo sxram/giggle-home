@@ -9,7 +9,8 @@ window.PRODUCTS = [
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HQXTZCYX",
     "shop": "Amazon",
-    "descriptionEn": "40 manga-inspired coloring adventures · English · Ages 8–14"
+    "descriptionEn": "40 manga-inspired coloring adventures · English · Ages 8–14",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "B0HM32BWGN",
@@ -21,7 +22,8 @@ window.PRODUCTS = [
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HM32BWGN",
     "shop": "Amazon",
-    "descriptionEn": "Squishy & kawaii · German edition · Ages 4+"
+    "descriptionEn": "Squishy & kawaii · German edition · Ages 4+",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "B0HPM6Y2FQ",
@@ -33,7 +35,8 @@ window.PRODUCTS = [
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HPM6Y2FQ",
     "shop": "Amazon",
-    "descriptionEn": "55 coloring pages & 25 puzzles · German edition"
+    "descriptionEn": "55 coloring pages & 25 puzzles · German edition",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "B0HMXCM9XP",
@@ -45,7 +48,8 @@ window.PRODUCTS = [
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HMXCM9XP",
     "shop": "Amazon",
-    "descriptionEn": "33 coloring and activity pages · German edition · Ages 6+"
+    "descriptionEn": "33 coloring and activity pages · German edition · Ages 6+",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "B0HQ4J1J4T",
@@ -57,7 +61,8 @@ window.PRODUCTS = [
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HQ4J1J4T",
     "shop": "Amazon",
-    "descriptionEn": "40 manga-inspired coloring adventures · English · Ages 8–14"
+    "descriptionEn": "40 manga-inspired coloring adventures · English · Ages 8–14",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "B0HKWWF576",
@@ -69,7 +74,8 @@ window.PRODUCTS = [
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HKWWF576",
     "shop": "Amazon",
-    "descriptionEn": "Giggle Dumplings · English edition"
+    "descriptionEn": "Giggle Dumplings · English edition",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "B0HQ1MTXD6",
@@ -81,7 +87,8 @@ window.PRODUCTS = [
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HQ1MTXD6",
     "shop": "Amazon",
-    "descriptionEn": "55 coloring pages & 25 puzzles · English edition"
+    "descriptionEn": "55 coloring pages & 25 puzzles · English edition",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "B0HMSHCWSL",
@@ -93,7 +100,8 @@ window.PRODUCTS = [
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HMSHCWSL",
     "shop": "Amazon",
-    "descriptionEn": "33 kawaii mandalas · English edition · Ages 6+"
+    "descriptionEn": "33 kawaii mandalas · English edition · Ages 6+",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "B0HLLD7QBX",
@@ -105,7 +113,8 @@ window.PRODUCTS = [
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HLLD7QBX",
     "shop": "Amazon",
-    "descriptionEn": "Coloring pages, puzzles & crafts · German edition"
+    "descriptionEn": "Coloring pages, puzzles & crafts · German edition",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "B0HLMQKNJS",
@@ -117,7 +126,8 @@ window.PRODUCTS = [
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HLMQKNJS",
     "shop": "Amazon",
-    "descriptionEn": "Kawaii coloring pages & activities · English edition"
+    "descriptionEn": "Kawaii coloring pages & activities · English edition",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "B0HJY9BL42",
@@ -129,7 +139,8 @@ window.PRODUCTS = [
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HJY9BL42",
     "shop": "Amazon",
-    "descriptionEn": "Giggle Dumplings · German edition"
+    "descriptionEn": "Giggle Dumplings · German edition",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "B0HKWRFLHX",
@@ -141,7 +152,8 @@ window.PRODUCTS = [
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HKWRFLHX",
     "shop": "Amazon",
-    "descriptionEn": "Giggle Dumplings · English edition"
+    "descriptionEn": "Giggle Dumplings · English edition",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "B0HKWPJT6T",
@@ -153,7 +165,8 @@ window.PRODUCTS = [
     "format": "Paperback",
     "url": "https://www.amazon.com/dp/B0HKWPJT6T",
     "shop": "Amazon",
-    "descriptionEn": "Giggle Dumplings · Spanish edition"
+    "descriptionEn": "Giggle Dumplings · Spanish edition",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4615170253",
@@ -165,7 +178,8 @@ window.PRODUCTS = [
     "category": "clothing",
     "format": "T-Shirt",
     "url": "https://www.etsy.com/listing/4615170253",
-    "shop": "Etsy"
+    "shop": "Etsy",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4578612735",
@@ -177,7 +191,8 @@ window.PRODUCTS = [
     "format": "T-Shirt",
     "url": "https://www.etsy.com/listing/4578612735",
     "shop": "Etsy",
-    "descriptionEn": "Kawaii meets punk. For little free spirits."
+    "descriptionEn": "Kawaii meets punk. For little free spirits.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4604552667",
@@ -190,7 +205,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/listing/4604552667",
     "shop": "Etsy",
     "spreadshopUrl": "https://gigglehome.myspreadshop.de/schlafenszeit+fuer+niemand-A3277d67f8d991390",
-    "descriptionEn": "Sleepy Teddy & the toy rebellion."
+    "descriptionEn": "Sleepy Teddy & the toy rebellion.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4603763868",
@@ -202,7 +218,8 @@ window.PRODUCTS = [
     "format": "T-Shirt",
     "url": "https://www.etsy.com/listing/4603763868",
     "shop": "Etsy",
-    "descriptionEn": "Never mind the broccoli."
+    "descriptionEn": "Never mind the broccoli.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4603182850",
@@ -215,7 +232,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/listing/4603182850",
     "shop": "Etsy",
     "spreadshopUrl": "https://gigglehome.myspreadshop.de/kleiner+schatz-A32786a2a4e11374d",
-    "descriptionEn": "Play among us."
+    "descriptionEn": "Play among us.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4603068073",
@@ -227,7 +245,8 @@ window.PRODUCTS = [
     "format": "T-Shirt",
     "url": "https://www.etsy.com/listing/4603068073",
     "shop": "Etsy",
-    "descriptionEn": "Punk spirit for the playground."
+    "descriptionEn": "Punk spirit for the playground.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4603126201",
@@ -240,7 +259,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/listing/4603126201",
     "shop": "Etsy",
     "spreadshopUrl": "https://gigglehome.myspreadshop.de/waschbares+material-A32786a2468ef861a",
-    "descriptionEn": "For little mess makers."
+    "descriptionEn": "For little mess makers.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4597600781",
@@ -252,7 +272,8 @@ window.PRODUCTS = [
     "format": "T-Shirt",
     "url": "https://www.etsy.com/listing/4597600781",
     "shop": "Etsy",
-    "descriptionEn": "Aliens & animal friends in outer space."
+    "descriptionEn": "Aliens & animal friends in outer space.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4599046559",
@@ -266,7 +287,8 @@ window.PRODUCTS = [
     "shop": "Etsy",
     "sourceSection": "Poster",
     "sourceTitle": "Cute Animal Nursery Wall Art – Rainbow Cloud Poster with Capybara | Axolotl | Cat | Otter & Red Panda | Giggle Critters Kids Room Decor",
-    "descriptionEn": "Capybara, axolotl & friends above the clouds."
+    "descriptionEn": "Capybara, axolotl & friends above the clouds.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4589225523",
@@ -280,7 +302,8 @@ window.PRODUCTS = [
     "shop": "Etsy",
     "sourceSection": "Poster",
     "sourceTitle": "Giggle Cosmos Alien & Cosmic Cat Poster | Purple Galaxy Nursery Art (Digital Download)",
-    "descriptionEn": "An alien and a cat in an imaginative galaxy."
+    "descriptionEn": "An alien and a cat in an imaginative galaxy.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4589236950",
@@ -294,7 +317,8 @@ window.PRODUCTS = [
     "shop": "Etsy",
     "sourceSection": "Poster",
     "sourceTitle": "Giggle Cosmos Alien & Cosmic Bunny Poster | Galaxy Nursery Wall Art (Digital Download)",
-    "descriptionEn": "A little space adventure with an alien and a bunny."
+    "descriptionEn": "A little space adventure with an alien and a bunny.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4589222247",
@@ -308,7 +332,8 @@ window.PRODUCTS = [
     "shop": "Etsy",
     "sourceSection": "Poster",
     "sourceTitle": "Giggle Cosmos Alien & Puppy Space Poster | Kids Room Wall Art (Digital Download)",
-    "descriptionEn": "An alien and a space puppy among moons and stars."
+    "descriptionEn": "An alien and a space puppy among moons and stars.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4587948894",
@@ -322,7 +347,8 @@ window.PRODUCTS = [
     "shop": "Etsy",
     "sourceSection": "Poster",
     "sourceTitle": "Enchanted Treehouse Village Poster | Whimsical Fairytale Nursery Art (Matte Print)",
-    "descriptionEn": "A magical treehouse village with steps and lanterns."
+    "descriptionEn": "A magical treehouse village with steps and lanterns.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4587939201",
@@ -336,7 +362,8 @@ window.PRODUCTS = [
     "shop": "Etsy",
     "sourceSection": "Poster",
     "sourceTitle": "Enchanted Forest Nursery Poster | Magical Woodland Animals, Moonlight Castle (Print)",
-    "descriptionEn": "Woodland animals, a little cottage and a moonlit castle."
+    "descriptionEn": "Woodland animals, a little cottage and a moonlit castle.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4587744048",
@@ -350,7 +377,8 @@ window.PRODUCTS = [
     "shop": "Etsy",
     "sourceSection": "Poster",
     "sourceTitle": "Autumn Village Poster | Cozy Fall Landscape Wall Art (Digital Download)",
-    "descriptionEn": "A cozy village in warm autumn colors."
+    "descriptionEn": "A cozy village in warm autumn colors.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4587327425",
@@ -364,7 +392,8 @@ window.PRODUCTS = [
     "shop": "Etsy",
     "sourceSection": "Poster",
     "sourceTitle": "Moonlit Forest Fox Nursery Poster | Whimsical Woodland Storybook Art (Print)",
-    "descriptionEn": "A little fox in an enchanting moonlit woodland."
+    "descriptionEn": "A little fox in an enchanting moonlit woodland.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4587330228",
@@ -378,7 +407,8 @@ window.PRODUCTS = [
     "shop": "Etsy",
     "sourceSection": "Poster",
     "sourceTitle": "Whimsical Autumn Forest Deer Poster | Storybook Nursery Wall Art (Digital Download)",
-    "descriptionEn": "A deer among colorful flowers and autumn trees."
+    "descriptionEn": "A deer among colorful flowers and autumn trees.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4587312441",
@@ -392,7 +422,8 @@ window.PRODUCTS = [
     "shop": "Etsy",
     "sourceSection": "Poster",
     "sourceTitle": "Whimsical Moonlit Village Poster | Colorful Canal Nursery Art (Print)",
-    "descriptionEn": "A little village full of big imagination."
+    "descriptionEn": "A little village full of big imagination.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4586722119",
@@ -406,7 +437,8 @@ window.PRODUCTS = [
     "shop": "Etsy",
     "sourceSection": "Poster",
     "sourceTitle": "Colorful Whimsical Village Poster | Kids Room Wall Art | Storybook Nursery Decor | Magical Fairytale Print",
-    "descriptionEn": "Colorful houses, winding paths and a little black cat."
+    "descriptionEn": "Colorful houses, winding paths and a little black cat.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4586713039",
@@ -420,7 +452,8 @@ window.PRODUCTS = [
     "shop": "Etsy",
     "sourceSection": "Poster",
     "sourceTitle": "Whimsical Moonlit Village Nursery Poster",
-    "descriptionEn": "A dreamy village beneath a sparkling night sky."
+    "descriptionEn": "A dreamy village beneath a sparkling night sky.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4584464355",
@@ -434,7 +467,8 @@ window.PRODUCTS = [
     "shop": "Etsy",
     "sourceSection": "Poster",
     "sourceTitle": "Sleepy Moon Nursery Poster – Squishy Dumplings",
-    "descriptionEn": "Sweet dreams with the Squishy Dumplings."
+    "descriptionEn": "Sweet dreams with the Squishy Dumplings.",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4603169815",
@@ -449,7 +483,8 @@ window.PRODUCTS = [
     "sourceSection": "Calendar",
     "sourceTitle": "Giggle Dumplings 2027 Calendar | A4 Story & Puzzle Wall Calendar | English",
     "descriptionEn": "A Year of Adventures · A4 wall calendar with stories and puzzles · English edition",
-    "titleEn": "Giggle Dumplings: Calendar 2027"
+    "titleEn": "Giggle Dumplings: Calendar 2027",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4616579518",
@@ -463,7 +498,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/listing/4616579518",
     "shop": "Etsy",
     "sourceSection": "Coloring Books",
-    "sourceTitle": "Giggle Friends Printable Coloring Book for Ages 8-14, 40 Scenes + Bonus Finale, A4 & US Letter PDF Download"
+    "sourceTitle": "Giggle Friends Printable Coloring Book for Ages 8-14, 40 Scenes + Bonus Finale, A4 & US Letter PDF Download",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4616564584",
@@ -477,7 +513,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/listing/4616564584",
     "shop": "Etsy",
     "sourceSection": "Coloring Books",
-    "sourceTitle": "Punk Coloring Book Printable, 40 Scenes + Bonus Finale, Giggle Friends Rebels, A4 & US Letter PDF Download"
+    "sourceTitle": "Punk Coloring Book Printable, 40 Scenes + Bonus Finale, Giggle Friends Rebels, A4 & US Letter PDF Download",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4588431637",
@@ -491,7 +528,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/listing/4588431637",
     "shop": "Etsy",
     "sourceSection": "Coloring Books",
-    "sourceTitle": "Giggle Dumplings Mandala Coloring Book | 33 Kawaii Animal & Character Mandalas (PDF)"
+    "sourceTitle": "Giggle Dumplings Mandala Coloring Book | 33 Kawaii Animal & Character Mandalas (PDF)",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4586038104",
@@ -505,7 +543,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/listing/4586038104",
     "shop": "Etsy",
     "sourceSection": "Coloring Books",
-    "sourceTitle": "Giggle Dumplings Halloween Activity Pack – 15 Coloring Pages, 4 Puzzles, Monster Mask (Digital Download)"
+    "sourceTitle": "Giggle Dumplings Halloween Activity Pack – 15 Coloring Pages, 4 Puzzles, Monster Mask (Digital Download)",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4586017730",
@@ -519,7 +558,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/listing/4586017730",
     "shop": "Etsy",
     "sourceSection": "Coloring Books",
-    "sourceTitle": "Giggle Dumplings Halloween Coloring and Activity Book - 67 Printable Pages, Kawaii Puzzles and Crafts"
+    "sourceTitle": "Giggle Dumplings Halloween Coloring and Activity Book - 67 Printable Pages, Kawaii Puzzles and Crafts",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4577780010",
@@ -533,7 +573,8 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/listing/4577780010",
     "shop": "Etsy",
     "sourceSection": "Coloring Books",
-    "sourceTitle": "Giggle Dumplings Coloring Pages – 20 Kawaii Characters (A4 + US Letter PDF)"
+    "sourceTitle": "Giggle Dumplings Coloring Pages – 20 Kawaii Characters (A4 + US Letter PDF)",
+    "verifiedOn": "2026-11-17"
   },
   {
     "id": "4577462134",
@@ -547,6 +588,495 @@ window.PRODUCTS = [
     "url": "https://www.etsy.com/listing/4577462134",
     "shop": "Etsy",
     "sourceSection": "Coloring Books",
-    "sourceTitle": "Giggle Dumplings Coloring Book – 55 Funny Pages, Puzzles (Digital Download)"
+    "sourceTitle": "Giggle Dumplings Coloring Book – 55 Funny Pages, Puzzles (Digital Download)",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "4618955213",
+    "title": "Giggle Friends: Junior Rebels – Printable Coloring Book",
+    "description": "40 Szenen + Bonusfinale · PDF in A4 & US Letter · Englisch",
+    "descriptionEn": "40 scenes + bonus finale · A4 & US Letter PDFs · English",
+    "image": "https://i.etsystatic.com/68057917/r/il/7a01b8/8920033529/il_340x270.8920033529_aks6.jpg",
+    "world": "punk",
+    "category": "printables",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4618955213",
+    "shop": "Etsy",
+    "sourceSection": "Coloring Books",
+    "verifiedOn": "2026-11-17",
+    "isNew": true
+  },
+  {
+    "id": "4617117961",
+    "title": "Giggle Friends: Punk Crew – Printable Coloring Book",
+    "description": "40 Szenen + Bonusfinale · PDF in A4 & US Letter · Englisch",
+    "descriptionEn": "40 scenes + bonus finale · A4 & US Letter PDFs · English",
+    "image": "https://i.etsystatic.com/68057917/r/il/537df8/8904759917/il_340x270.8904759917_igml.jpg",
+    "world": "punk",
+    "category": "printables",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4617117961",
+    "shop": "Etsy",
+    "sourceSection": "Coloring Books",
+    "verifiedOn": "2026-11-17",
+    "isNew": true
+  },
+  {
+    "id": "4618937709",
+    "title": "Crossing the Red Paint",
+    "description": "Punkiges Kunstmotiv · Kinder-T-Shirt",
+    "descriptionEn": "Punk art design · Kids T-shirt",
+    "image": "https://i.etsystatic.com/68057917/r/il/10a845/8872148596/il_340x270.8872148596_7dh1.jpg",
+    "world": "punk",
+    "category": "clothing",
+    "format": "Kids T-Shirt",
+    "url": "https://www.etsy.com/listing/4618937709",
+    "shop": "Etsy",
+    "sourceSection": "Kids T-Shirts",
+    "verifiedOn": "2026-11-17",
+    "isNew": true
+  },
+  {
+    "id": "4618940193",
+    "title": "City Kid Attacked by Snacks",
+    "description": "Snack-Chaos mit Punk-Charme · Kinder-T-Shirt",
+    "descriptionEn": "Snack chaos with punk attitude · Kids T-shirt",
+    "image": "https://i.etsystatic.com/68057917/r/il/504b74/8919940955/il_340x270.8919940955_lxtc.jpg",
+    "world": "punk",
+    "category": "clothing",
+    "format": "Kids T-Shirt",
+    "url": "https://www.etsy.com/listing/4618940193",
+    "shop": "Etsy",
+    "sourceSection": "Kids T-Shirts",
+    "verifiedOn": "2026-11-17",
+    "isNew": true
+  },
+  {
+    "id": "4618949644",
+    "title": "Sounds of Play",
+    "description": "Für kleine Krachmacher · Kinder-T-Shirt",
+    "descriptionEn": "For little noisemakers · Kids T-shirt",
+    "image": "https://i.etsystatic.com/68057917/r/il/33a190/8919947603/il_340x270.8919947603_8rae.jpg",
+    "world": "punk",
+    "category": "clothing",
+    "format": "Kids T-Shirt",
+    "url": "https://www.etsy.com/listing/4618949644",
+    "shop": "Etsy",
+    "sourceSection": "Kids T-Shirts",
+    "verifiedOn": "2026-11-17",
+    "isNew": true
+  },
+  {
+    "id": "4578735233",
+    "title": "Dumpling Riot – EU",
+    "description": "Punky Party Crew · EU-Shopvariante",
+    "descriptionEn": "Punky Party Crew · EU shop variant",
+    "image": "https://i.etsystatic.com/68057917/r/il/1752ca/8597120169/il_340x270.8597120169_71mg.jpg",
+    "world": "punk",
+    "category": "clothing",
+    "format": "Kids T-Shirt",
+    "url": "https://www.etsy.com/listing/4578735233",
+    "shop": "Etsy",
+    "sourceSection": "Kids T-Shirts",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "4578740730",
+    "title": "Punky Dumplings – EU",
+    "description": "Bunte Punk-Dumplings · EU-Shopvariante",
+    "descriptionEn": "Colorful punk dumplings · EU shop variant",
+    "image": "https://i.etsystatic.com/68057917/r/il/84e3ce/8549160314/il_340x270.8549160314_sc3l.jpg",
+    "world": "punk",
+    "category": "clothing",
+    "format": "Kids T-Shirt",
+    "url": "https://www.etsy.com/listing/4578740730",
+    "shop": "Etsy",
+    "sourceSection": "Kids T-Shirts",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "4578662958",
+    "title": "Dumpling Riot",
+    "description": "Punky Party Crew · Kinder-T-Shirt",
+    "descriptionEn": "Punky Party Crew · Kids T-shirt",
+    "image": "https://i.etsystatic.com/68057917/r/il/72c19f/8549113480/il_340x270.8549113480_oadi.jpg",
+    "world": "punk",
+    "category": "clothing",
+    "format": "Kids T-Shirt",
+    "url": "https://www.etsy.com/listing/4578662958",
+    "shop": "Etsy",
+    "sourceSection": "Kids T-Shirts",
+    "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "4596335156",
+    "title": "Little Pirate Crew – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/ae888e/8685091972/il_340x270.8685091972_eac2.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4596335156",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Little Pirate Crew – Printable Poster"
+  },
+  {
+    "id": "4596340482",
+    "title": "Pirate Island Adventure – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/005d5b/8685073706/il_340x270.8685073706_8gew.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4596340482",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Pirate Island Adventure – Printable Poster"
+  },
+  {
+    "id": "4596336904",
+    "title": "Pirate Treasure Map – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/b9569f/8685079238/il_340x270.8685079238_me2r.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4596336904",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Pirate Treasure Map – Printable Poster"
+  },
+  {
+    "id": "4596338164",
+    "title": "Pirate Fantasy Island – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/8cb9cd/8732890047/il_340x270.8732890047_7ztp.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4596338164",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Pirate Fantasy Island – Printable Poster"
+  },
+  {
+    "id": "4595582523",
+    "title": "Mermaid Underwater World – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/d6b6f2/8684844970/il_340x270.8684844970_oc1f.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4595582523",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Mermaid Underwater World – Printable Poster"
+  },
+  {
+    "id": "4594805247",
+    "title": "Cute Dinosaur Sunset – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/f382d5/8673234468/il_340x270.8673234468_ja55.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4594805247",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Cute Dinosaur Sunset – Printable Poster"
+  },
+  {
+    "id": "4594797831",
+    "title": "Fairytale Flower Village – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/cc786b/8721016243/il_340x270.8721016243_5ky5.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4594797831",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Fairytale Flower Village – Printable Poster"
+  },
+  {
+    "id": "4590747752",
+    "title": "Unicorn Castle – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/c90a69/8672126834/il_340x270.8672126834_rn5p.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4590747752",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Unicorn Castle – Printable Poster"
+  },
+  {
+    "id": "4590745926",
+    "title": "Whimsical Mushroom Village – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/871a74/8719981123/il_340x270.8719981123_fq32.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4590745926",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Whimsical Mushroom Village – Printable Poster"
+  },
+  {
+    "id": "4594782360",
+    "title": "Moonlit Mushroom Village – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/03622c/8720757817/il_340x270.8720757817_s4j5.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4594782360",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Moonlit Mushroom Village – Printable Poster"
+  },
+  {
+    "id": "4589624775",
+    "title": "Punklings Punk Rock – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/11669b/8672158800/il_340x270.8672158800_emtd.jpg",
+    "world": "punk",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4589624775",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Punklings Punk Rock – Printable Poster"
+  },
+  {
+    "id": "4589566200",
+    "title": "Whimsical Storybook Village – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/11a789/8720242883/il_340x270.8720242883_rf2x.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4589566200",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Whimsical Storybook Village – Printable Poster"
+  },
+  {
+    "id": "4589555837",
+    "title": "Whimsical Moonlit Canal – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/cc2ada/8720262299/il_340x270.8720262299_lvnj.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4589555837",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Whimsical Moonlit Canal – Printable Poster"
+  },
+  {
+    "id": "4589566294",
+    "title": "Sleepy Moon – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/211ade/8720262809/il_340x270.8720262809_28ji.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4589566294",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Sleepy Moon – Printable Poster"
+  },
+  {
+    "id": "4589565952",
+    "title": "Autumn Forest Deer – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/97b2ca/8720263157/il_340x270.8720263157_ddmu.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4589565952",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Autumn Forest Deer – Printable Poster"
+  },
+  {
+    "id": "4589555521",
+    "title": "Moonlit Forest Fox – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/ad64d1/8672429992/il_340x270.8672429992_cx7h.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4589555521",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Moonlit Forest Fox – Printable Poster"
+  },
+  {
+    "id": "4589565616",
+    "title": "Autumn Village – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/d05740/8720263703/il_340x270.8720263703_5owk.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4589565616",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Autumn Village – Printable Poster"
+  },
+  {
+    "id": "4589555269",
+    "title": "Enchanted Forest – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/5257b7/8720263941/il_340x270.8720263941_9au4.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4589555269",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Enchanted Forest – Printable Poster"
+  },
+  {
+    "id": "4589555143",
+    "title": "Enchanted Treehouse Village – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/97bb22/8672430822/il_340x270.8672430822_ptjn.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4589555143",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Enchanted Treehouse Village – Printable Poster"
+  },
+  {
+    "id": "4589564866",
+    "title": "Giggle Cosmos: Alien & Bunny – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/6d40c4/8720264507/il_340x270.8720264507_k1af.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4589564866",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Giggle Cosmos: Alien & Bunny – Printable Poster"
+  },
+  {
+    "id": "4589554913",
+    "title": "Giggle Cosmos: Alien & Puppy – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/c8f42c/8672431350/il_340x270.8672431350_ewui.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4589554913",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Giggle Cosmos: Alien & Puppy – Printable Poster"
+  },
+  {
+    "id": "4589320163",
+    "title": "Giggle Cosmos: Alien & Cat – Poster zum Ausdrucken",
+    "description": "Poster zum Selbstausdrucken · Digitaler Download · Kein Versand",
+    "descriptionEn": "Print-at-home poster · Digital download · No physical delivery",
+    "image": "https://i.etsystatic.com/68057917/r/il/2d5d22/8720265079/il_340x270.8720265079_93km.jpg",
+    "world": "kids",
+    "category": "digitalposters",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4589320163",
+    "shop": "Etsy",
+    "sourceSection": "Poster-Digital",
+    "verifiedOn": "2026-11-17",
+    "titleEn": "Giggle Cosmos: Alien & Cat – Printable Poster"
+  },
+  {
+    "id": "B0HRQ1Y14Y",
+    "title": "Giggle Friends: Punk Crew",
+    "description": "40 Comic-Malabenteuer · Englisch · 6–14 Jahre",
+    "descriptionEn": "40 comic-inspired coloring adventures · English · Ages 6–14",
+    "image": "assets/punk-crew-cover.webp",
+    "world": "punk",
+    "category": "books",
+    "format": "Paperback",
+    "url": "https://www.amazon.com/dp/B0HRQ1Y14Y",
+    "shop": "Amazon",
+    "verifiedOn": "2026-11-17",
+    "isNew": true
+  },
+  {
+    "id": "B0HRSVLGH1",
+    "title": "Giggle Friends: Junior Rebels",
+    "description": "40 Cartoon-Malabenteuer · Englisch · 5–10 Jahre",
+    "descriptionEn": "40 cartoon coloring adventures · English · Ages 5–10",
+    "image": "assets/junior-rebels-cover.webp",
+    "world": "punk",
+    "category": "books",
+    "format": "Paperback",
+    "url": "https://www.amazon.com/dp/B0HRSVLGH1",
+    "shop": "Amazon",
+    "verifiedOn": "2026-11-17",
+    "isNew": true
+  },
+  {
+    "id": "B0HPLP58W4",
+    "title": "Giggle Dumplings: A Year of Adventures 2027",
+    "description": "Geschichten & Rätsel · 27 Ausschneideblätter · Englisch",
+    "descriptionEn": "Story and puzzle book · 27 cut-out sheets · English",
+    "image": "assets/year-of-adventures-cover.webp",
+    "world": "kids",
+    "category": "books",
+    "format": "Paperback",
+    "url": "https://www.amazon.com/dp/B0HPLP58W4",
+    "shop": "Amazon",
+    "verifiedOn": "2026-11-17"
   }
 ];

@@ -1,6 +1,6 @@
-# Giggle Home – Beispielseite
+# Giggle Home
 
-Statische, für GitHub Pages vorbereitete Designvorschau mit 35 echten Produkten aus dem Etsy-Shop GigglingHome und der Amazon-Autorenseite von Stefan Marx. Stand: 11. November 2026. Eine Auswahl, kein vollständiger Katalog.
+Statische Webseite für GitHub Pages mit 75 Produkten: alle 59 öffentlich gelisteten Etsy-Artikel von GigglingHome und 16 bei KDP als Live bestätigte Taschenbücher. Katalogabgleich: 17. November 2026. Rechtliche Angaben bleiben vor einem vollständigen öffentlichen Betrieb zu ergänzen.
 
 ## Vorschau
 
@@ -15,7 +15,7 @@ Statische, für GitHub Pages vorbereitete Designvorschau mit 35 echten Produkten
 - Responsive Darstellung und Tastaturbedienung
 - Keine erfundenen Preise: Aktuelle Preise und Verfügbarkeit stehen im jeweiligen Shop
 
-Die Zuordnung zu den Produktwelten ist ein redaktioneller Vorschlag. Originaltitel wurden teilweise für die Anzeige gekürzt. Produktbeschreibungen sind kurze redaktionelle Texte. Kalender, nicht mehr lieferbare Ausgaben und weitere Etsy-Produkte sind in dieser Beispielauswahl nicht enthalten.
+Die Zuordnung zu den Produktwelten ist ein redaktioneller Vorschlag. Originaltitel wurden teilweise für die Anzeige gekürzt. Produktbeschreibungen sind kurze redaktionelle Texte. Kalender, digitale Poster und regionale Shirt-Varianten sind enthalten. KDP-Entwürfe und unveröffentlichte ältere Ausgaben werden nicht gelistet.
 
 ## Auf GitHub Pages veröffentlichen
 
@@ -25,7 +25,7 @@ Die Zuordnung zu den Produktwelten ist ein redaktioneller Vorschlag. Originaltit
 4. In Settings → Pages → Build and deployment die Quelle **GitHub Actions** wählen.
 5. Nach dem nächsten Push oder einem manuellen Start des Workflows wird die Seite veröffentlicht.
 
-Es wurde noch kein Repository angelegt und nichts auf GitHub veröffentlicht. Vor Veröffentlichung vollständige rechtliche Angaben ergänzen und die Produktauswahl sowie die Bildverwendung prüfen. Der Hinweis „Designvorschau“ auf der Seite macht den aktuellen Entwurfsstand sichtbar.
+Repository: https://github.com/sxram/giggle-home · Webseite: https://giggle.stefanmarx.de/. Vor Veröffentlichung vollständige rechtliche Angaben ergänzen und die Produktauswahl sowie die Bildverwendung prüfen. Der Hinweis „Designvorschau“ auf der Seite macht den aktuellen Entwurfsstand sichtbar.
 
 ## Produkte ergänzen
 
@@ -51,7 +51,7 @@ Jedes Produkt hat diese Felder:
 }
 ```
 
-`world`: `kids` oder `punk`. `category`: `books`, `clothing`, `posters`, `calendar` oder `printables`.
+`world`: `kids` oder `punk`. `category`: `books`, `clothing`, `posters`, `digitalposters`, `calendar` oder `printables`. `books` umfasst Mal- und Mitmachbücher; `calendar` den Etsy-Wandkalender. `isNew: true` kennzeichnet die redaktionell ausgewählten Neuheiten; `verifiedOn` dokumentiert den letzten Abgleich.
 
 ## Dynamischer Katalog auf einer statischen Seite
 
@@ -138,3 +138,15 @@ Die Karte „Punk for Kids“ nutzt das bestätigte Social-Profilbild mit Gesich
 ## Digitale Malbücher auf Etsy
 
 Am 13.11.2026 alle sieben Artikel der Etsy-Shopkategorie „Coloring Books“ (section_id=60429003) übernommen. Die Kategorie „Malbücher zum Ausdrucken“ / „Printable coloring books“ zeigt reguläre Produktkarten mit Originalbildern und direkten Etsy-Artikellinks. Als digitaler Download gekennzeichnet, mit deutschen und englischen Beschreibungen; Suche, Sortierung, Weltfilter und Ergebniszähler funktionieren wie bei den übrigen Produkten. Die Originaltitel und Shopkategorie sind als sourceTitle/sourceSection dokumentiert. Gesamtumfang: 42 Produkte.
+
+## Gesamtabgleich Etsy und KDP – 17.11.2026
+
+Aktueller Umfang: **75 Produkte**, davon 16 Bücher, 14 Shirt-Artikel einschließlich separater regionaler Angebote, 13 gedruckte Poster, 22 digitale Poster, 9 digitale Malbücher und 1 A4-Wandkalender. Die vorstehenden datierten Abschnitte dokumentieren frühere Bearbeitungsstände.
+
+Quellen: öffentlicher Etsy-Shop (beide Katalogseiten, 59 Artikel; Shopkategorien Coloring Books 9, Poster 13, Kids T-Shirts 14, Poster-Digital 22, Calendar 1) und angemeldetes KDP-Bücherregal (alle drei Seiten). Veröffentlicht sind Punk Crew (B0HRQ1Y14Y), Junior Rebels (B0HRSVLGH1) und A Year of Adventures 2027 (B0HPLP58W4). Young Rebels ist weiterhin ein Taschenbuchentwurf und wird nicht angeboten. Bei Junior Rebels gilt die Altersangabe 5–10 aus dem aktuellen KDP-Titel; ältere lokale Metadaten nennen noch 6–10.
+
+Neu ergänzt: drei Punk-Shirts (Crossing the Red Paint, City Kid Attacked by Snacks, Sounds of Play), Junior Rebels und Punk Crew als Etsy-PDF, die bisher fehlenden drei Dumpling-Shirt-Varianten und sämtliche digitalen Poster. Letztere besitzen einen eigenen Filter und sind als Download ohne physischen Versand gekennzeichnet. Das Amazon-Jahresabenteuer steht als Paperback unter den Büchern, getrennt vom Etsy-Wandkalender. Keine festen Preise übernommen.
+
+Einstieg mit Junior-Rebels-Cover, aktualisierte DE/EN-Texte, neue redaktionelle Vorauswahl, Neu-Badges und Sortierung „Neuheiten zuerst“. Lokale WebP-Titelbilder aus vorhandenen Originaldateien; Etsy-Karten verwenden die öffentlich sichtbaren Shopbilder. Druckcover können bei laufenden KDP-Revisionen zeitversetzt zur Shopvorschau wechseln.
+
+Prüfung: 75 eindeutige IDs, JavaScript-Syntax, Produkt-/Kategorieanzahlen, DE/EN-Wechsel mit aktivem Filter, Junior-Rebels-Suche (zwei Formate), Neuheiten-Sortierung sowie mobile Ansicht mit 390 Pixeln ohne horizontalen Überlauf. Neue und geänderte Bilddateien auf Abruf und Bildlesbarkeit geprüft. QR-Dateien mit Punk-Symbol bleiben erhalten.
