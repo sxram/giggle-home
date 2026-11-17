@@ -1,6 +1,6 @@
 # Giggle Home
 
-Statische Webseite für GitHub Pages mit 75 Produkten: alle 59 öffentlich gelisteten Etsy-Artikel von GigglingHome und 16 bei KDP als Live bestätigte Taschenbücher. Katalogabgleich: 17. November 2026. Rechtliche Angaben bleiben vor einem vollständigen öffentlichen Betrieb zu ergänzen.
+Statische Webseite für GitHub Pages mit 77 Produkten: alle 60 öffentlich gelisteten Etsy-Artikel von GigglingHome und 17 bei KDP als Live bestätigte Taschenbücher. Katalogabgleich: 17. November 2026. Rechtliche Angaben bleiben vor einem vollständigen öffentlichen Betrieb zu ergänzen.
 
 ## Vorschau
 
@@ -150,3 +150,7 @@ Neu ergänzt: drei Punk-Shirts (Crossing the Red Paint, City Kid Attacked by Sna
 Einstieg mit Junior-Rebels-Cover, aktualisierte DE/EN-Texte, neue redaktionelle Vorauswahl, Neu-Badges und Sortierung „Neuheiten zuerst“. Lokale WebP-Titelbilder aus vorhandenen Originaldateien; Etsy-Karten verwenden die öffentlich sichtbaren Shopbilder. Druckcover können bei laufenden KDP-Revisionen zeitversetzt zur Shopvorschau wechseln.
 
 Prüfung: 75 eindeutige IDs, JavaScript-Syntax, Produkt-/Kategorieanzahlen, DE/EN-Wechsel mit aktivem Filter, Junior-Rebels-Suche (zwei Formate), Neuheiten-Sortierung sowie mobile Ansicht mit 390 Pixeln ohne horizontalen Überlauf. Neue und geänderte Bilddateien auf Abruf und Bildlesbarkeit geprüft. QR-Dateien mit Punk-Symbol bleiben erhalten.
+
+## Young Rebels und Etsy-Neonvorschauen – 17.11.2026
+
+Young Rebels ergänzt: Amazon-Taschenbuch B0HRX2B1KY (KDP-Bücherregal: Live, eingereicht am 17.11.2026) und Etsy-Sofortdownload 4619348944 (aktiv, A4 und US Letter, 40 Motive plus Bonus-Finale). Die fünf Malbuchangebote Giggle Friends, Rebels, Punk Crew, Junior Rebels und Young Rebels verwenden die am 17.11.2026 veröffentlichten quadratischen Neon-Hauptbilder. Eigene lokale WebP-Dateien (1000 × 1000 Pixel) vermeiden veraltete Etsy-Thumbnails. `imageShape: "square"` setzt ausschließlich diese Produktkarten auf eine quadratische Bildfläche und erhält das vollständige Motiv. Die Amazon-Ausgabe verwendet das aktuelle separate Frontcover.

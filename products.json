@@ -491,7 +491,7 @@
     "title": "Giggle Friends: Printable Coloring Book",
     "description": "40 Szenen + Bonusfinale · 8–14 Jahre · PDF in A4 und US Letter zum Selbstausdrucken",
     "descriptionEn": "40 scenes + bonus finale · Ages 8–14 · A4 & US Letter printable PDF",
-    "image": "https://i.etsystatic.com/68057917/r/il/ed9b48/8852445698/il_340x270.8852445698_kv3x.jpg",
+    "image": "assets/etsy-giggle-friends-neon-20261117.webp",
     "world": "kids",
     "category": "printables",
     "format": "Digitaler Download",
@@ -499,14 +499,15 @@
     "shop": "Etsy",
     "sourceSection": "Coloring Books",
     "sourceTitle": "Giggle Friends Printable Coloring Book for Ages 8-14, 40 Scenes + Bonus Finale, A4 & US Letter PDF Download",
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-17",
+    "imageShape": "square"
   },
   {
     "id": "4616564584",
     "title": "Giggle Friends: Rebels – Printable Coloring Book",
     "description": "40 Punk-Szenen + Bonusfinale · PDF in A4 und US Letter zum Selbstausdrucken",
     "descriptionEn": "40 punk scenes + bonus finale · A4 & US Letter printable PDF",
-    "image": "https://i.etsystatic.com/68057917/r/il/5c7157/8900080821/il_340x270.8900080821_dpsy.jpg",
+    "image": "assets/etsy-rebels-neon-20261117.webp",
     "world": "punk",
     "category": "printables",
     "format": "Digitaler Download",
@@ -514,7 +515,8 @@
     "shop": "Etsy",
     "sourceSection": "Coloring Books",
     "sourceTitle": "Punk Coloring Book Printable, 40 Scenes + Bonus Finale, Giggle Friends Rebels, A4 & US Letter PDF Download",
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-17",
+    "imageShape": "square"
   },
   {
     "id": "4588431637",
@@ -596,7 +598,7 @@
     "title": "Giggle Friends: Junior Rebels – Printable Coloring Book",
     "description": "40 Szenen + Bonusfinale · PDF in A4 & US Letter · Englisch",
     "descriptionEn": "40 scenes + bonus finale · A4 & US Letter PDFs · English",
-    "image": "https://i.etsystatic.com/68057917/r/il/7a01b8/8920033529/il_340x270.8920033529_aks6.jpg",
+    "image": "assets/etsy-junior-rebels-neon-20261117.webp",
     "world": "punk",
     "category": "printables",
     "format": "Digitaler Download",
@@ -604,14 +606,15 @@
     "shop": "Etsy",
     "sourceSection": "Coloring Books",
     "verifiedOn": "2026-11-17",
-    "isNew": true
+    "isNew": true,
+    "imageShape": "square"
   },
   {
     "id": "4617117961",
     "title": "Giggle Friends: Punk Crew – Printable Coloring Book",
     "description": "40 Szenen + Bonusfinale · PDF in A4 & US Letter · Englisch",
     "descriptionEn": "40 scenes + bonus finale · A4 & US Letter PDFs · English",
-    "image": "https://i.etsystatic.com/68057917/r/il/537df8/8904759917/il_340x270.8904759917_igml.jpg",
+    "image": "assets/etsy-punk-crew-neon-20261117.webp",
     "world": "punk",
     "category": "printables",
     "format": "Digitaler Download",
@@ -619,7 +622,8 @@
     "shop": "Etsy",
     "sourceSection": "Coloring Books",
     "verifiedOn": "2026-11-17",
-    "isNew": true
+    "isNew": true,
+    "imageShape": "square"
   },
   {
     "id": "4618937709",
@@ -1078,5 +1082,36 @@
     "url": "https://www.amazon.com/dp/B0HPLP58W4",
     "shop": "Amazon",
     "verifiedOn": "2026-11-17"
+  },
+  {
+    "id": "B0HRX2B1KY",
+    "title": "Giggle Friends: Young Rebels",
+    "description": "40 Punk-Malszenen · Englisch · für Teens und Erwachsene",
+    "descriptionEn": "40 punk coloring scenes · English · For teens and adults",
+    "image": "assets/young-rebels-cover.webp",
+    "world": "punk",
+    "category": "books",
+    "format": "Paperback",
+    "url": "https://www.amazon.com/dp/B0HRX2B1KY",
+    "shop": "Amazon",
+    "verifiedOn": "2026-11-17",
+    "isNew": true
+  },
+  {
+    "id": "4619348944",
+    "title": "Giggle Friends: Young Rebels – Printable Coloring Book",
+    "description": "40 Szenen + Bonusfinale · PDF in A4 & US Letter · Englisch · für Teens und Erwachsene",
+    "descriptionEn": "40 scenes + bonus finale · A4 & US Letter PDFs · English · For teens and adults",
+    "image": "assets/etsy-young-rebels-neon-20261117.webp",
+    "imageShape": "square",
+    "world": "punk",
+    "category": "printables",
+    "format": "Digitaler Download",
+    "url": "https://www.etsy.com/listing/4619348944",
+    "shop": "Etsy",
+    "sourceSection": "Coloring Books",
+    "sourceTitle": "Teen Punk Coloring Book Printable, Young Rebels, 40 Scenes + Bonus Finale, A4 & US Letter PDF Download",
+    "verifiedOn": "2026-11-17",
+    "isNew": true
   }
 ]

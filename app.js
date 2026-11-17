@@ -28,10 +28,10 @@ function shopLink(url, label, title, secondary=false){
 }
 function card(original){
  const p=localizedProduct(original);
- const article=document.createElement('article');article.className='product '+p.category;
+ const article=document.createElement('article');article.className='product '+p.category+(p.imageShape==='square'?' square-preview':'');
  const a=document.createElement('a');a.className='product-main';a.href=p.url;a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',p.title+' – '+viewLabel(p.shop)+' ('+t().newTab+')');
  const picture=document.createElement('div');picture.className='product-image';
- const img=document.createElement('img');img.src=p.image;img.alt=p.title;img.loading='lazy';img.width=340;img.height=374;
+ const img=document.createElement('img');img.src=p.image;img.alt=p.title;img.loading='lazy';img.width=340;img.height=p.imageShape==='square'?340:374;
  img.addEventListener('error',()=>{img.hidden=true;picture.append(text('span',p.title,'image-fallback'));},{once:true});
  picture.append(img,text('span',p.world==='punk'?'Punk for Kids':'Kids','badge '+(p.world==='punk'?'rebel':'')));
  if(p.isNew)picture.append(text('span',language==='en'?'New':'Neu','new-badge'));
@@ -49,7 +49,7 @@ function render(){
  if(state.sort==='newest')filtered.sort((a,b)=>Number(Boolean(b.isNew))-Number(Boolean(a.isNew)));
  if(['az','za'].includes(state.sort))filtered.sort((a,b)=>localizedProduct(a).title.localeCompare(localizedProduct(b).title,language)*(state.sort==='za'?-1:1));
  if(state.sort==='curated'&&state.category==='all'){
-  const featured=['B0HRSVLGH1','4618937709','B0HRQ1Y14Y','4618955213','4618940193','4617117961','4618949644','B0HQXTZCYX','B0HPLP58W4','4603169815','B0HM32BWGN','4587312441'];
+  const featured=['B0HRX2B1KY','4619348944','B0HRSVLGH1','4618937709','B0HRQ1Y14Y','4618955213','4618940193','4617117961','4618949644','B0HQXTZCYX','B0HPLP58W4','4603169815','B0HM32BWGN','4587312441'];
   filtered.sort((a,b)=>(featured.includes(a.id)?featured.indexOf(a.id):999)-(featured.includes(b.id)?featured.indexOf(b.id):999));
  }
  grid.replaceChildren(...filtered.map(card));document.querySelector('#count').textContent=filtered.length+' '+(filtered.length===1?t().one:t().many);document.querySelector('#empty').hidden=filtered.length!==0;
@@ -76,13 +76,13 @@ function applyLanguage(){
  set('.hero h1','Kleine Köpfe.<br>Große <span>Fantasie.</span>'+underline,'Little minds.<br>Big <span>imagination.</span>'+underline);
  set('.intro','Ein bisschen wild. Ein bisschen wundervoll.<br>Malabenteuer, Punk-Shirts und bunte Poster –<br>als Lieblingsstück oder direkt zum Ausdrucken.','A little wild. A little wonderful.<br>Coloring adventures, punk tees and colorful posters –<br>as a favorite keepsake or ready to print at home.');
  set('.hero-copy > .button','Produkte entdecken <span>↘</span>','Explore products <span>↘</span>');
- set('.hero-note','Neu dabei: Junior Rebels, Punk Crew &amp; drei neue Punk-Shirts.','New arrivals: Junior Rebels, Punk Crew &amp; three new punk tees.');
+ set('.hero-note','Neu dabei: Young Rebels – als Buch und zum Ausdrucken.','New arrival: Young Rebels – as a paperback and printable.');
  set('.world.punk .eyebrow','FÜR KLEINE REBELLEN','FOR LITTLE REBELS');
- set('.world.punk p','Junior Rebels, Punk Crew &amp; Shirts mit Eigensinn.','Junior Rebels, Punk Crew &amp; tees with attitude.');
+ set('.world.punk p','Young Rebels, Junior Rebels &amp; Shirts mit Eigensinn.','Young Rebels, Junior Rebels &amp; tees with attitude.');
  set('.world.kids .eyebrow','FÜR GROSSE TRÄUMER','FOR BIG DREAMERS');
  set('.world.kids p','Dumplings, Tierfreunde &amp; ein Jahr voller Abenteuer.','Dumplings, animal friends &amp; a year of adventures.');
  set('.catalog-heading .eyebrow','UNSERE PRODUKTE · STAND 17.11.2026','OUR PRODUCTS · UPDATED NOVEMBER 17, 2026');
- set('.catalog-intro','Als Buch, zum Anziehen oder zum Selbstausdrucken: Entdecke alle 59 Etsy-Artikel und 16 veröffentlichte Bücher bei Amazon. Digitale Downloads und gedruckte Produkte sind getrennt gekennzeichnet.','As a book, to wear or to print at home: explore all 59 Etsy listings and 16 published books on Amazon. Digital downloads and printed products are clearly labeled.');
+ set('.catalog-intro','Als Buch, zum Anziehen oder zum Selbstausdrucken: Entdecke alle 60 Etsy-Artikel und 17 veröffentlichte Bücher bei Amazon. Digitale Downloads und gedruckte Produkte sind getrennt gekennzeichnet.','As a book, to wear or to print at home: explore all 60 Etsy listings and 17 published books on Amazon. Digital downloads and printed products are clearly labeled.');
  set('.catalog-heading h2','Bunte Bücher, wilde Shirts <i>&amp; mehr.</i>','Colorful books, wild tees <i>&amp; more.</i>');
  set('#sort option[value="newest"]','Neuheiten zuerst','New arrivals first');
  attr('#search','placeholder','Produkte suchen …','Search products …');
