@@ -154,3 +154,9 @@ Prüfung: 75 eindeutige IDs, JavaScript-Syntax, Produkt-/Kategorieanzahlen, DE/E
 ## Young Rebels und Etsy-Neonvorschauen – 17.11.2026
 
 Young Rebels ergänzt: Amazon-Taschenbuch B0HRX2B1KY (KDP-Bücherregal: Live, eingereicht am 17.11.2026) und Etsy-Sofortdownload 4619348944 (aktiv, A4 und US Letter, 40 Motive plus Bonus-Finale). Die fünf Malbuchangebote Giggle Friends, Rebels, Punk Crew, Junior Rebels und Young Rebels verwenden die am 17.11.2026 veröffentlichten quadratischen Neon-Hauptbilder. Eigene lokale WebP-Dateien (1000 × 1000 Pixel) vermeiden veraltete Etsy-Thumbnails. `imageShape: "square"` setzt ausschließlich diese Produktkarten auf eine quadratische Bildfläche und erhält das vollständige Motiv. Die Amazon-Ausgabe verwendet das aktuelle separate Frontcover.
+
+## Spreadshop-Abgleich – 17.11.2026
+
+City Kid Attacked by Snacks (Design 328b063c60300064) wurde im vorhandenen Spreadshop gigglehome veröffentlicht; Status „Veröffentlicht“ im Partnerbereich bestätigt. Die bestehenden Produktkonfigurationen (Kinder T-Shirt, Kinder Premium Bio T-Shirt, Kinder Basecap) wurden beibehalten. Zusätzlich sind Crossing the Red Paint (328b063a45495bb4), Sounds of Play (328b045726fff8d3) und Another Mess in a Different Kitchen (328a23da2a2c8fde) mit den zugehörigen bestehenden Produktkarten verknüpft. Der öffentliche Shop-Katalog bestätigt diese Designs.
+
+Die drei bisherigen Spreadshop-Verweise für Bedtime for Nobody, Washable Material und Mini Mischief wurden auf die aktuell öffentlich verwendeten englischen Design-URLs gebracht; Mini Mischief heißt dort Little Mischief, die Design-ID 32786a2a4e11374d ist unverändert. Insgesamt sieben Spreadshop-Verweise, weiterhin 77 Produktkarten; keine doppelten Etsy-/Spreadshop-Karten. `spreadshopVerifiedOn` dokumentiert den Abgleich. Nicht veröffentlichte Designs erhalten keinen Shop-Link.
