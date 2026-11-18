@@ -1,6 +1,6 @@
 # Giggle Home
 
-Statische Webseite für GitHub Pages mit 77 Produkten: alle 60 öffentlich gelisteten Etsy-Artikel von GigglingHome und 17 bei KDP als Live bestätigte Taschenbücher. Katalogabgleich: 17. November 2026. Rechtliche Angaben bleiben vor einem vollständigen öffentlichen Betrieb zu ergänzen.
+Statische Webseite für GitHub Pages mit 85 Produkten: alle 68 öffentlich gelisteten Etsy-Artikel von GigglingHome und 17 bei KDP als Live bestätigte Taschenbücher. Katalogabgleich: 18. November 2026. Rechtliche Angaben bleiben vor einem vollständigen öffentlichen Betrieb zu ergänzen.
 
 ## Vorschau
 
@@ -160,3 +160,13 @@ Young Rebels ergänzt: Amazon-Taschenbuch B0HRX2B1KY (KDP-Bücherregal: Live, ei
 City Kid Attacked by Snacks (Design 328b063c60300064) wurde im vorhandenen Spreadshop gigglehome veröffentlicht; Status „Veröffentlicht“ im Partnerbereich bestätigt. Die bestehenden Produktkonfigurationen (Kinder T-Shirt, Kinder Premium Bio T-Shirt, Kinder Basecap) wurden beibehalten. Zusätzlich sind Crossing the Red Paint (328b063a45495bb4), Sounds of Play (328b045726fff8d3) und Another Mess in a Different Kitchen (328a23da2a2c8fde) mit den zugehörigen bestehenden Produktkarten verknüpft. Der öffentliche Shop-Katalog bestätigt diese Designs.
 
 Die drei bisherigen Spreadshop-Verweise für Bedtime for Nobody, Washable Material und Mini Mischief wurden auf die aktuell öffentlich verwendeten englischen Design-URLs gebracht; Mini Mischief heißt dort Little Mischief, die Design-ID 32786a2a4e11374d ist unverändert. Insgesamt sieben Spreadshop-Verweise, weiterhin 77 Produktkarten; keine doppelten Etsy-/Spreadshop-Karten. `spreadshopVerifiedOn` dokumentiert den Abgleich. Nicht veröffentlichte Designs erhalten keinen Shop-Link.
+
+## Katalogabgleich – 18.11.2026
+
+85 Produktkarten: 68 aktive Etsy-Angebote und 17 im KDP-Bücherregal als Live bestätigte Taschenbücher. Etsy wurde über beide Katalogseiten und die Posterkategorie geprüft, KDP über alle drei Bücherregalseiten. Unveröffentlichte ältere KDP-Ausgaben bleiben ausgeschlossen. Der öffentliche Spreadshop-Katalog enthält weiterhin dieselben sieben bereits verknüpften Design-IDs; keine neuen Spreadshop-Karten oder Verweise erforderlich. Die Prüfdatumsfelder wurden aktualisiert. Der KDP-Abgleich bestätigt den Veröffentlichungsstatus; die öffentliche Amazon-Verfügbarkeit wurde nicht erneut einzeln geprüft.
+
+Acht neue Etsy-Angebote: City Kid Attacked by Snacks, Mini Mischief, Snack Pistols und Sounds of Play, jeweils als gedrucktes Poster und als separater Download. IDs Druck: 4620498998, 4620499846, 4620491297, 4620499446; IDs Download: 4620487199, 4620493584, 4620493202, 4620492742. Originaltitel und Shopkategorien sind dokumentiert; eigene lokale Kopien der bestätigten Etsy-Hauptbilder und deutsche/englische Kurzbeschreibungen ergänzen die Karten. Keine festen Preise übernommen.
+
+Kategorieumfang: 17 Bücher, 14 Clothing-Angebote, 17 Druckposter, 26 Downloadposter, 10 digitale Malbücher und 1 Kalender. Katalogzahlen und Stand sind in DE/EN aktualisiert. Nur lokal aktualisiert; kein Push oder Deployment.
+
+Prüfung: 85 eindeutige Produkt-IDs und direkte Hauptlinks, Pflichtfelder und Kategorien, lokale Bilddateien, identische JSON-/Browserdaten sowie JavaScript-Syntax geprüft. Browser: alle acht neuen Bilder mit 800 Pixeln geladen, Snack-Pistols-Suche über drei Formate, Druck-/Downloadfilter, Punk-Weltfilter und DE/EN-Wechsel bei aktiver Suche/Filter geprüft. Desktop und 390-Pixel-Mobilansicht ohne horizontalen Überlauf; keine JavaScript-Konsolenfehler. Direkte Etsy-Artikelseiten waren im Recherchebrowser teilweise durch die Geräteprüfung gesperrt; der angemeldete Safari-Zugriff auf das neue City-Kid-Druckposter funktionierte. Alle acht Artikel waren im öffentlichen Shop aktiv sichtbar.

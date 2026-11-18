@@ -81,8 +81,8 @@ function applyLanguage(){
  set('.world.punk p','Young Rebels, Junior Rebels &amp; Shirts mit Eigensinn.','Young Rebels, Junior Rebels &amp; tees with attitude.');
  set('.world.kids .eyebrow','FÜR GROSSE TRÄUMER','FOR BIG DREAMERS');
  set('.world.kids p','Dumplings, Tierfreunde &amp; ein Jahr voller Abenteuer.','Dumplings, animal friends &amp; a year of adventures.');
- set('.catalog-heading .eyebrow','UNSERE PRODUKTE · STAND 17.11.2026','OUR PRODUCTS · UPDATED NOVEMBER 17, 2026');
- set('.catalog-intro','Als Buch, zum Anziehen oder zum Selbstausdrucken: Entdecke alle 60 Etsy-Artikel und 17 veröffentlichte Bücher bei Amazon. Digitale Downloads und gedruckte Produkte sind getrennt gekennzeichnet.','As a book, to wear or to print at home: explore all 60 Etsy listings and 17 published books on Amazon. Digital downloads and printed products are clearly labeled.');
+ set('.catalog-heading .eyebrow','UNSERE PRODUKTE · STAND 18.11.2026','OUR PRODUCTS · UPDATED NOVEMBER 18, 2026');
+ set('.catalog-intro','Als Buch, zum Anziehen oder zum Selbstausdrucken: Entdecke alle 68 Etsy-Artikel und 17 veröffentlichte Bücher bei Amazon. Digitale Downloads und gedruckte Produkte sind getrennt gekennzeichnet.','As a book, to wear or to print at home: explore all 68 Etsy listings and 17 published books on Amazon. Digital downloads and printed products are clearly labeled.');
  set('.catalog-heading h2','Bunte Bücher, wilde Shirts <i>&amp; mehr.</i>','Colorful books, wild tees <i>&amp; more.</i>');
  set('#sort option[value="newest"]','Neuheiten zuerst','New arrivals first');
  attr('#search','placeholder','Produkte suchen …','Search products …');
@@ -110,7 +110,7 @@ function applyLanguage(){
  attr('.qr-image-link','aria-label','Giggle Home über den QR-Link öffnen','Open Giggle Home using the QR link');
  attr('.qr-image-link img','alt','QR-Code zur Giggle-Home-Webseite','QR code linking to the Giggle Home website');
 
- set('.demo-note','Designvorschau · Produktkatalog, Stand 17.11.2026 · Einkauf und aktuelle Preise direkt bei Amazon, Etsy oder Spreadshop. Rechtliche Angaben vor Veröffentlichung ergänzen.','Design preview · Product catalog, updated November 17, 2026 · Shop and check current prices on Amazon, Etsy or Spreadshop. Complete the legal information before publication.');
+ set('.demo-note','Designvorschau · Produktkatalog, Stand 18.11.2026 · Einkauf und aktuelle Preise direkt bei Amazon, Etsy oder Spreadshop. Rechtliche Angaben vor Veröffentlichung ergänzen.','Design preview · Product catalog, updated November 18, 2026 · Shop and check current prices on Amazon, Etsy or Spreadshop. Complete the legal information before publication.');
  attr('nav','aria-label','Hauptnavigation','Main navigation');attr('.footer-social','aria-label','Giggle Punk auf Social Media','Giggle Punk on social media');attr('.language-switch','aria-label','Sprache wählen','Choose language');
  attr('.worlds','aria-label','Unsere Welten','Our worlds');attr('.world-filters','aria-label','Produktwelt','Product world');attr('.category-filters','aria-label','Produkttyp','Product category');
  attr('#sort','aria-label','Produkte sortieren','Sort products');attr('.endnote-actions','aria-label','Unsere Shops','Our shops');
