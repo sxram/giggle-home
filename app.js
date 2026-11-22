@@ -2,7 +2,7 @@
 const products = window.PRODUCTS || [];
 const state = {world:'all',category:'all',search:'',sort:'curated'};
 let language='de';
-try { language=new URLSearchParams(location.search).get('lang') || localStorage.getItem('giggle-home-language') || 'de'; } catch (_) {}
+try { language=new URLSearchParams(location.search).get('lang') || 'de'; } catch (_) {}
 if(!['de','en'].includes(language))language='de';
 const translations={
  de:{labels:{books:'Buch',printables:'Digitales Malbuch',clothing:'Clothing',posters:'Poster',digitalposters:'Digitales Poster',calendar:'Kalender'},categories:{all:'Alles',books:'Mal- & Mitmachbücher',printables:'Malbücher zum Ausdrucken',clothing:'T-Shirts / Clothing',posters:'Poster',digitalposters:'Poster zum Ausdrucken',calendar:'Kalender'},allWorlds:'Alle Welten',view:'Bei {shop} ansehen',spread:'Shirts bei Spreadshop',newTab:'neuer Tab',one:'Produkt',many:'Produkte'},
@@ -102,6 +102,9 @@ function applyLanguage(){
  set('.endnote-actions a:nth-child(2)','Bücher bei Amazon ↗','Books on Amazon ↗');
  set('.endnote-actions a:nth-child(3)','Shirts bei Spreadshop ↗','Shirts on Spreadshop ↗');
  set('footer p','Malbücher, Kleidung, Poster &amp; Kalender.','Coloring books, clothing, posters &amp; calendars.');
+ set('.legal-imprint','Impressum','Legal notice');
+ set('.legal-privacy','Datenschutz','Privacy');
+ attr('.legal-links','aria-label','Rechtliche Informationen','Legal information');
  set('.take-home .eyebrow','FÜR UNTERWEGS','TAKE IT WITH YOU');
  set('#take-home-title','Giggle Home mitnehmen','Take Giggle Home along');
  set('.take-home-description','Scannen, speichern oder weitergeben – unsere bunten Welten passen auch in die Hosentasche.','Scan, save or share – our colorful worlds fit in your pocket, too.');
@@ -110,7 +113,7 @@ function applyLanguage(){
  attr('.qr-image-link','aria-label','Giggle Home über den QR-Link öffnen','Open Giggle Home using the QR link');
  attr('.qr-image-link img','alt','QR-Code zur Giggle-Home-Webseite','QR code linking to the Giggle Home website');
 
- set('.demo-note','Designvorschau · Produktkatalog, Stand 18.11.2026 · Einkauf und aktuelle Preise direkt bei Amazon, Etsy oder Spreadshop. Rechtliche Angaben vor Veröffentlichung ergänzen.','Design preview · Product catalog, updated November 18, 2026 · Shop and check current prices on Amazon, Etsy or Spreadshop. Complete the legal information before publication.');
+ set('.demo-note','Produktkatalog · Stand 18.11.2026 · Einkauf und aktuelle Preise direkt bei Amazon, Etsy oder Spreadshop.','Product catalog · Updated November 18, 2026 · Shop and check current prices on Amazon, Etsy or Spreadshop.');
  attr('nav','aria-label','Hauptnavigation','Main navigation');attr('.footer-social','aria-label','Giggle Punk auf Social Media','Giggle Punk on social media');attr('.language-switch','aria-label','Sprache wählen','Choose language');
  attr('.worlds','aria-label','Unsere Welten','Our worlds');attr('.world-filters','aria-label','Produktwelt','Product world');attr('.category-filters','aria-label','Produkttyp','Product category');
  attr('#sort','aria-label','Produkte sortieren','Sort products');attr('.endnote-actions','aria-label','Unsere Shops','Our shops');
@@ -131,17 +134,15 @@ function applyLanguage(){
 }
 document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>{
  language=b.dataset.lang;
- try{localStorage.setItem('giggle-home-language',language);}catch(_){}
  try{const url=new URL(location.href);url.searchParams.set('lang',language);history.replaceState(null,'',url);}catch(_){}
  applyLanguage();
 }));
 
 applyLanguage();
 
-// A one-off, non-interactive hello for every visitor. Respect reduced motion.
+// A non-interactive hello on each page load. Respect reduced motion.
 function greetVisitor(){
  if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
- try{if(sessionStorage.getItem('giggle-house-hello'))return;sessionStorage.setItem('giggle-house-hello','shown');}catch(_){}
  const mascot=document.querySelector('.qr-mascot');
  mascot.addEventListener('animationend',event=>{if(event.target===mascot)mascot.hidden=true;});
  mascot.hidden=false;

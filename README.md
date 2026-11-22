@@ -1,10 +1,10 @@
 # Giggle Home
 
-Statische Webseite für GitHub Pages mit 85 Produkten: alle 68 öffentlich gelisteten Etsy-Artikel von GigglingHome und 17 bei KDP als Live bestätigte Taschenbücher. Katalogabgleich: 18. November 2026. Rechtliche Angaben bleiben vor einem vollständigen öffentlichen Betrieb zu ergänzen.
+Statische Webseite für GitHub Pages mit 85 Produkten: alle 68 öffentlich gelisteten Etsy-Artikel von GigglingHome und 17 bei KDP als Live bestätigte Taschenbücher. Katalogabgleich: 18. November 2026. Impressum und Datenschutzhinweise sind über die separate rechtliche Website verlinkt.
 
 ## Vorschau
 
-`index.html` im Browser öffnen. Dafür ist keine Installation erforderlich. Die Produktdaten werden aus `products.js` geladen, sodass auch die lokale Datei funktioniert. Bilder werden aktuell von Amazon und Etsy, Schriften von Google Fonts geladen. Für den öffentlichen Betrieb sind eigene lokale Bilddateien und lokal gespeicherte Schriften sinnvoll.
+`index.html` im Browser öffnen. Dafür ist keine Installation erforderlich. Die Produktdaten werden aus `products.js` geladen, sodass auch die lokale Datei funktioniert. Alle Bilder und Schriftarten werden lokal aus diesem Projekt geladen. Die Schriftlizenzen liegen unter `assets/fonts/`; die Herkunft der lokalisierten Produktbilder ist in `assets/products/sources.json` dokumentiert.
 
 ## Enthalten
 
@@ -113,7 +113,7 @@ Am 10.11.2026 wurden alle 13 Artikel der Etsy-Shopkategorie „Poster“ und der
 
 ## Deutsch / English
 
-Die DE/EN-Auswahl im Header übersetzt Seitentexte, Filter, Suche, Sortierung, Shoplinks, Alternativtexte und Produktbeschreibungen. Buchtitel bleiben als Originaltitel erhalten; die tatsächliche Ausgabe (German/English/Spanish edition) steht in der Beschreibung. Die englische Kalenderbezeichnung ist separat hinterlegt. Marken-Schriftzüge und die englischen Sprüche im Bildband bleiben unverändert. Die Wahl wird lokal gespeichert und ist über `?lang=de` bzw. `?lang=en` teilbar. Ein Sprachwechsel erhält die aktiven Filter und den Suchtext.
+Die DE/EN-Auswahl im Header übersetzt Seitentexte, Filter, Suche, Sortierung, Shoplinks, Alternativtexte und Produktbeschreibungen. Buchtitel bleiben als Originaltitel erhalten; die tatsächliche Ausgabe (German/English/Spanish edition) steht in der Beschreibung. Die englische Kalenderbezeichnung ist separat hinterlegt. Marken-Schriftzüge und die englischen Sprüche im Bildband bleiben unverändert. Die Wahl wird ausschließlich über `?lang=de` bzw. `?lang=en` in der Adresse festgehalten und ist damit teilbar; es wird kein Browser-Speicher verwendet. Ein Sprachwechsel erhält die aktiven Filter und den Suchtext.
 
 ## Cache-sichere Veröffentlichungen
 
@@ -121,7 +121,7 @@ Vor jedem Deployment erzeugt `scripts/prepare_site.py` die Produktdaten und vers
 
 ## QR-Karte im Fußbereich
 
-`assets/giggle-home-qr.png` und `.svg` enthalten die Zieladresse `https://giggle.stefanmarx.de/?source=qr`. Die SVG-Druckversion ist auf 32 mm mit vier Modulen weißem Rand angelegt; die PNG ist hochauflösend. Das Haus-Maskottchen begrüßt alle Besucher unabhängig von der Herkunft einmal pro Tab mit einem sieben Sekunden langen Hüpfen am unteren Bildschirmrand. Es fängt keine Klicks ab, verschwindet vollständig und bleibt bei reduzierter Bewegung aus. Der QR-Parameter kennzeichnet lediglich den Link und löst keine Sonderansicht aus. Keine Popups, Weiterleitung oder zusätzliche Analyse bzw. eigene Speicherung der Herkunft. Sprachwechsel erhalten den Parameter. Die ursprünglichen QR-Druckdateien ohne Parameter bleiben als frühere Chat-Downloads erhalten.
+`assets/giggle-home-qr.png` und `.svg` enthalten die Zieladresse `https://giggle.stefanmarx.de/?source=qr`. Die SVG-Druckversion ist auf 32 mm mit vier Modulen weißem Rand angelegt; die PNG ist hochauflösend. Das Haus-Maskottchen begrüßt Besucher unabhängig von der Herkunft bei jedem Laden der Seite mit einem sieben Sekunden langen Hüpfen am unteren Bildschirmrand. Es fängt keine Klicks ab, verschwindet vollständig und bleibt bei reduzierter Bewegung aus. Der QR-Parameter kennzeichnet lediglich den Link und löst keine Sonderansicht aus. Keine Popups, Weiterleitung oder zusätzliche Analyse bzw. eigene Speicherung der Herkunft. Sprachwechsel erhalten den Parameter. Die ursprünglichen QR-Druckdateien ohne Parameter bleiben als frühere Chat-Downloads erhalten.
 
 ## Einheitliche Pfeile auf iOS
 
@@ -170,3 +170,13 @@ Acht neue Etsy-Angebote: City Kid Attacked by Snacks, Mini Mischief, Snack Pisto
 Kategorieumfang: 17 Bücher, 14 Clothing-Angebote, 17 Druckposter, 26 Downloadposter, 10 digitale Malbücher und 1 Kalender. Katalogzahlen und Stand sind in DE/EN aktualisiert. Nur lokal aktualisiert; kein Push oder Deployment.
 
 Prüfung: 85 eindeutige Produkt-IDs und direkte Hauptlinks, Pflichtfelder und Kategorien, lokale Bilddateien, identische JSON-/Browserdaten sowie JavaScript-Syntax geprüft. Browser: alle acht neuen Bilder mit 800 Pixeln geladen, Snack-Pistols-Suche über drei Formate, Druck-/Downloadfilter, Punk-Weltfilter und DE/EN-Wechsel bei aktiver Suche/Filter geprüft. Desktop und 390-Pixel-Mobilansicht ohne horizontalen Überlauf; keine JavaScript-Konsolenfehler. Direkte Etsy-Artikelseiten waren im Recherchebrowser teilweise durch die Geräteprüfung gesperrt; der angemeldete Safari-Zugriff auf das neue City-Kid-Druckposter funktionierte. Alle acht Artikel waren im öffentlichen Shop aktiv sichtbar.
+
+## Lokale Inhalte und rechtliche Links – 22.11.2026
+
+Alle 67 bisher externen Produktbildquellen einschließlich des Hero-Covers wurden lokal übernommen. `products.json`, `products.js` und HTML laden keine Bilder von Amazon oder Etsy mehr. Die bisher verwendeten elf Schriftdateien der drei Familien Baloo 2, DM Sans und Space Grotesk liegen zusammen mit den OFL-Lizenzen lokal unter `assets/fonts/`. Beim Anzeigen werden keine Google-Fonts-Verbindungen hergestellt. Neue Produktbilder künftig ebenfalls nach `assets/` übernehmen; externe Bildadressen nicht wieder als Laufzeitquellen eintragen.
+
+Der Seitencode verwendet weder Cookies noch Local Storage oder Session Storage. Die Sprachwahl bleibt über den vorhandenen URL-Parameter teilbar. Das Häuschen erscheint ohne gespeicherte Besuchskennung bei jedem Laden, sofern reduzierte Bewegung nicht aktiviert ist. Die Referrer-Richtlinie ist `no-referrer`.
+
+Im Footer sind Impressum (`https://impressum.stefanmarx.de/`) und Datenschutz (`https://impressum.stefanmarx.de/datenschutz/`) in DE/EN und auf Mobilgeräten erreichbar. Die Datenschutzhinweise im separaten Projekt `../legal-pages` gelten nun ausdrücklich auch für die Produktseite. GitHub Pages protokolliert laut eigener Dokumentation Besucher-IP-Adressen zu Sicherheitszwecken; deshalb wird keine vollständige Datenfreiheit behauptet.
+
+Bei der Veröffentlichung beide Projekte gemeinsam berücksichtigen, damit die verlinkten Datenschutzhinweise zur ausgelieferten Produktseite passen. Diese Änderungen wurden zunächst lokal vorbereitet, nicht veröffentlicht.

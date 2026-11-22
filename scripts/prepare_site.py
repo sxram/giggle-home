@@ -6,6 +6,13 @@ from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
 products = json.loads((root / 'products.json').read_text(encoding='utf-8'))
+# Product images must be served locally, as described in the privacy notice.
+for product in products:
+    image = product['image']
+    if not image.startswith('assets/') or '..' in Path(image).parts:
+        raise ValueError(f"Use a local assets/ image for product {product['id']}: {image}")
+    if not (root / image).is_file():
+        raise ValueError(f"Missing image for product {product['id']}: {image}")
 (root / 'products.js').write_text(
     'window.PRODUCTS = ' + json.dumps(products, ensure_ascii=False, indent=2) + ';\n',
     encoding='utf-8',
