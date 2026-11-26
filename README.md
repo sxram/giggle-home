@@ -25,7 +25,7 @@ Die Zuordnung zu den Produktwelten ist ein redaktioneller Vorschlag. Originaltit
 4. In Settings → Pages → Build and deployment die Quelle **GitHub Actions** wählen.
 5. Nach dem nächsten Push oder einem manuellen Start des Workflows wird die Seite veröffentlicht.
 
-Repository: https://github.com/sxram/giggle-home · Webseite: https://giggle.stefanmarx.de/. Vor Veröffentlichung vollständige rechtliche Angaben ergänzen und die Produktauswahl sowie die Bildverwendung prüfen. Der Hinweis „Designvorschau“ auf der Seite macht den aktuellen Entwurfsstand sichtbar.
+Repository: https://github.com/sxram/giggle-home · Webseite: https://www.gigglehome.de/. Vor Veröffentlichung vollständige rechtliche Angaben ergänzen und die Produktauswahl sowie die Bildverwendung prüfen. Der Hinweis „Designvorschau“ auf der Seite macht den aktuellen Entwurfsstand sichtbar.
 
 ## Produkte ergänzen
 
@@ -121,7 +121,7 @@ Vor jedem Deployment erzeugt `scripts/prepare_site.py` die Produktdaten und vers
 
 ## QR-Karte im Fußbereich
 
-`assets/giggle-home-qr.png` und `.svg` enthalten die Zieladresse `https://giggle.stefanmarx.de/?source=qr`. Die SVG-Druckversion ist auf 32 mm mit vier Modulen weißem Rand angelegt; die PNG ist hochauflösend. Das Haus-Maskottchen begrüßt Besucher unabhängig von der Herkunft bei jedem Laden der Seite mit einem sieben Sekunden langen Hüpfen am unteren Bildschirmrand. Es fängt keine Klicks ab, verschwindet vollständig und bleibt bei reduzierter Bewegung aus. Der QR-Parameter kennzeichnet lediglich den Link und löst keine Sonderansicht aus. Keine Popups, Weiterleitung oder zusätzliche Analyse bzw. eigene Speicherung der Herkunft. Sprachwechsel erhalten den Parameter. Die ursprünglichen QR-Druckdateien ohne Parameter bleiben als frühere Chat-Downloads erhalten.
+`assets/giggle-home-qr.png` und `.svg` enthalten die Zieladresse `https://www.gigglehome.de/?source=qr`. Die SVG-Druckversion ist auf 32 mm mit vier Modulen weißem Rand angelegt; die PNG ist hochauflösend. Das Haus-Maskottchen begrüßt Besucher unabhängig von der Herkunft bei jedem Laden der Seite mit einem sieben Sekunden langen Hüpfen am unteren Bildschirmrand. Es fängt keine Klicks ab, verschwindet vollständig und bleibt bei reduzierter Bewegung aus. Der QR-Parameter kennzeichnet lediglich den Link und löst keine Sonderansicht aus. Keine Popups, Weiterleitung oder zusätzliche Analyse bzw. eigene Speicherung der Herkunft. Sprachwechsel erhalten den Parameter. Die ursprünglichen QR-Druckdateien ohne Parameter bleiben als frühere Chat-Downloads erhalten.
 
 ## Einheitliche Pfeile auf iOS
 
