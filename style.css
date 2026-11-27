@@ -198,7 +198,6 @@ nav { gap: 22px; }
 .ticker-item:nth-child(2) { transform: rotate(-2deg); }
 .ticker-item:nth-child(3) { transform: rotate(1.5deg); }
 .hero-art .spark { width: 53px; height: 53px; object-fit: contain; opacity: .84; transform: rotate(9deg); }
-.hero-art .s2 { width: 34px; height: 34px; transform: rotate(-12deg); }
 .hand-note { width: 285px; height: 52px; right: -2px; bottom: -5px; transform: rotate(-5deg); }
 .hand-note img { display: block; width: 100%; height: 100%; object-fit: cover; }
 @media(max-width:1000px) and (min-width:651px) { .ticker { gap: 14px 26px; } }
